@@ -1,0 +1,2843 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jul 27 2024 22:39:13[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a98ch ( 43404) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001a9b4 vaddr=3ffb0000 size=023cch (  9164) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001cd88 vaddr=40080000 size=03290h ( 12944) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=16460h ( 91232) map[0m
+[0;32mI (165) esp_image: segment 4: paddr=00036488 vaddr=40083290 size=09f0ch ( 40716) load[0m
+[0;32mI (188) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (188) boot: Disabling RNG early entropy source...[0m
+[0;32mI (200) cpu_start: Multicore app[0m
+[0;32mI (208) cpu_start: Pro cpu start user code[0m
+[0;32mI (208) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (208) app_init: Application information:[0m
+[0;32mI (211) app_init: Project name:     hello_world[0m
+[0;32mI (216) app_init: App version:      1[0m
+[0;32mI (221) app_init: Compile time:     Jul 27 2024 22:39:02[0m
+[0;32mI (227) app_init: ELF file SHA256:  3fc9f7c86...[0m
+[0;32mI (232) app_init: ESP-IDF:          v5.3-dirty[0m
+[0;32mI (237) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (242) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (247) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (252) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (259) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFB2D18 len 0002D2E8 (180 KiB): DRAM[0m
+[0;32mI (271) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (278) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (284) heap_init: At 4008D19C len 00012E64 (75 KiB): IRAM[0m
+[0;32mI (292) spi_flash: detected chip: generic[0m
+[0;32mI (295) spi_flash: flash io: dio[0m
+[0;33mW (299) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+[0;32mI (423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (1923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (2923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (3923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (4923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (5923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (6923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (7923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (8923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (9923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (10923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (11923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (12923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (13923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (14923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (15923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (16923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (17923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (18923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (19923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (20923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (21923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (22923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (23923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (24923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (25923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (26923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (27923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (28923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (29923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (30923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (31923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (32923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (33923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (34923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (35923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (36923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (37923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (38923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (39923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (40923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (41923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (42923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (43923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (44923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (45923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (46923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (47923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (48923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (49923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (50923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (51923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (52923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (53923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (54923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (55923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (56923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (57923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (58923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (59923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (60923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (61923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (62923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (63923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (64923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (65923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (66923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (67923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (68923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (69923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (70923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (71923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (72923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (73923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (74923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (75923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76423) Touch LEDC: Increase: 0, Decrease: 1, Brightness: 0[0m
+[0;32mI (76523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (76923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (77923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (78923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (79923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (80923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (81923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (82923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (83923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (84923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (85923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86023) Touch LEDC: Increase: 0, Decrease: 1, Brightness: 0[0m
+[0;32mI (86123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (86923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (87923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (88923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (89923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (90923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (91923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (92923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (93923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (94923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (95923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (96923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (97923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (98923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (99923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (100923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (101923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (102923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (103923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (104923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (105923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (106923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (107923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (108923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (109923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (110923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (111923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (112923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (113923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (114923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (115923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (116923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (117923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (118923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (119923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (120923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (121923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (122923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (123923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (124923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (125923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (126923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127023) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127123) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127223) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127323) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127423) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127523) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127623) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127723) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127823) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (127923) Touch LEDC: Increase: 0, Decrease: 0, Brightness: 0[0m
+[0;32mI (732) example: Increased brightness to 200[0m
+[0;32mI (732) example: Decreased brightness to 100[0m
+[0;32mI (932) example: Increased brightness to 300[0m
+[0;32mI (932) example: Decreased brightness to 200[0m
+[0;32mI (1132) example: Increased brightness to 400[0m
+[0;32mI (1132) example: Decreased brightness to 300[0m
+[0;32mI (1332) example: Increased brightness to 500[0m
+[0;32mI (1332) example: Decreased brightness to 400[0m
+[0;32mI (1532) example: Increased brightness to 600[0m
+[0;32mI (1532) example: Decreased brightness to 500[0m
+[0;32mI (1732) example: Increased brightness to 700[0m
+[0;32mI (1732) example: Decreased brightness to 600[0m
+[0;32mI (1932) example: Increased brightness to 800[0m
+[0;32mI (1932) example: Decreased brightness to 700[0m
+[0;32mI (2132) example: Increased brightness to 900[0m
+[0;32mI (2132) example: Decreased brightness to 800[0m
+[0;32mI (2332) example: Increased brightness to 1000[0m
+[0;32mI (2332) example: Decreased brightness to 900[0m
+[0;32mI (2532) example: Increased brightness to 1100[0m
+[0;32mI (2532) example: Decreased brightness to 1000[0m
+[0;32mI (2732) example: Increased brightness to 1200[0m
+[0;32mI (2732) example: Decreased brightness to 1100[0m
+[0;32mI (2932) example: Increased brightness to 1300[0m
+[0;32mI (2932) example: Decreased brightness to 1200[0m
+[0;32mI (3132) example: Increased brightness to 1400[0m
+[0;32mI (3132) example: Decreased brightness to 1300[0m
+[0;32mI (3332) example: Increased brightness to 1500[0m
+[0;32mI (3332) example: Decreased brightness to 1400[0m
+[0;32mI (3532) example: Increased brightness to 1600[0m
+[0;32mI (3532) example: Decreased brightness to 1500[0m
+[0;32mI (3732) example: Increased brightness to 1700[0m
+[0;32mI (3732) example: Decreased brightness to 1600[0m
+[0;32mI (3932) example: Increased brightness to 1800[0m
+[0;32mI (3932) example: Decreased brightness to 1700[0m
+[0;32mI (4132) example: Increased brightness to 1900[0m
+[0;32mI (4132) example: Decreased brightness to 1800[0m
+[0;32mI (4332) example: Increased brightness to 2000[0m
+[0;32mI (4332) example: Decreased brightness to 1900[0m
+[0;32mI (4532) example: Increased brightness to 2100[0m
+[0;32mI (4532) example: Decreased brightness to 2000[0m
+[0;32mI (4732) example: Increased brightness to 2200[0m
+[0;32mI (4732) example: Decreased brightness to 2100[0m
+[0;32mI (4932) example: Increased brightness to 2300[0m
+[0;32mI (4932) example: Decreased brightness to 2200[0m
+[0;32mI (5132) example: Increased brightness to 2400[0m
+[0;32mI (5132) example: Decreased brightness to 2300[0m
+[0;32mI (5332) example: Increased brightness to 2500[0m
+[0;32mI (5332) example: Decreased brightness to 2400[0m
+[0;32mI (5532) example: Increased brightness to 2600[0m
+[0;32mI (5532) example: Decreased brightness to 2500[0m
+[0;32mI (5732) example: Increased brightness to 2700[0m
+[0;32mI (5732) example: Decreased brightness to 2600[0m
+[0;32mI (5932) example: Increased brightness to 2800[0m
+[0;32mI (5932) example: Decreased brightness to 2700[0m
+[0;32mI (6132) example: Increased brightness to 2900[0m
+[0;32mI (6132) example: Decreased brightness to 2800[0m
+[0;32mI (6332) example: Increased brightness to 3000[0m
+[0;32mI (6332) example: Decreased brightness to 2900[0m
+[0;32mI (6532) example: Increased brightness to 3100[0m
+[0;32mI (6532) example: Decreased brightness to 3000[0m
+[0;32mI (6732) example: Increased brightness to 3200[0m
+[0;32mI (6732) example: Decreased brightness to 3100[0m
+[0;32mI (6932) example: Increased brightness to 3300[0m
+[0;32mI (6932) example: Decreased brightness to 3200[0m
+[0;32mI (7132) example: Increased brightness to 3400[0m
+[0;32mI (7132) example: Decreased brightness to 3300[0m
+[0;32mI (7332) example: Increased brightness to 3500[0m
+[0;32mI (7332) example: Decreased brightness to 3400[0m
+[0;32mI (7532) example: Increased brightness to 3600[0m
+[0;32mI (7532) example: Decreased brightness to 3500[0m
+[0;32mI (7732) example: Increased brightness to 3700[0m
+[0;32mI (7732) example: Decreased brightness to 3600[0m
+[0;32mI (7932) example: Increased brightness to 3800[0m
+[0;32mI (7932) example: Decreased brightness to 3700[0m
+[0;32mI (8132) example: Increased brightness to 3900[0m
+[0;32mI (8132) example: Decreased brightness to 3800[0m
+[0;32mI (8332) example: Increased brightness to 4000[0m
+[0;32mI (8332) example: Decreased brightness to 3900[0m
+[0;32mI (8532) example: Increased brightness to 4100[0m
+[0;32mI (8532) example: Decreased brightness to 4000[0m
+[0;32mI (8732) example: Increased brightness to 4200[0m
+[0;32mI (8732) example: Decreased brightness to 4100[0m
+[0;32mI (8932) example: Increased brightness to 4300[0m
+[0;32mI (8932) example: Decreased brightness to 4200[0m
+[0;32mI (9132) example: Increased brightness to 4400[0m
+[0;32mI (9132) example: Decreased brightness to 4300[0m
+[0;32mI (9332) example: Increased brightness to 4500[0m
+[0;32mI (9332) example: Decreased brightness to 4400[0m
+[0;32mI (9532) example: Increased brightness to 4600[0m
+[0;32mI (9532) example: Decreased brightness to 4500[0m
+[0;32mI (9732) example: Increased brightness to 4700[0m
+[0;32mI (9732) example: Decreased brightness to 4600[0m
+[0;32mI (9932) example: Increased brightness to 4800[0m
+[0;32mI (9932) example: Decreased brightness to 4700[0m
+[0;32mI (10132) example: Increased brightness to 4900[0m
+[0;32mI (10132) example: Decreased brightness to 4800[0m
+[0;32mI (10332) example: Increased brightness to 5000[0m
+[0;32mI (10332) example: Decreased brightness to 4900[0m
+[0;32mI (10532) example: Increased brightness to 5100[0m
+[0;32mI (10532) example: Decreased brightness to 5000[0m
+[0;32mI (10732) example: Increased brightness to 5200[0m
+[0;32mI (10732) example: Decreased brightness to 5100[0m
+[0;32mI (10932) example: Increased brightness to 5300[0m
+[0;32mI (10932) example: Decreased brightness to 5200[0m
+[0;32mI (11132) example: Increased brightness to 5400[0m
+[0;32mI (11132) example: Decreased brightness to 5300[0m
+[0;32mI (11332) example: Increased brightness to 5500[0m
+[0;32mI (11332) example: Decreased brightness to 5400[0m
+[0;32mI (11532) example: Increased brightness to 5600[0m
+[0;32mI (11532) example: Decreased brightness to 5500[0m
+[0;32mI (11732) example: Increased brightness to 5700[0m
+[0;32mI (11732) example: Decreased brightness to 5600[0m
+[0;32mI (11932) example: Increased brightness to 5800[0m
+[0;32mI (11932) example: Decreased brightness to 5700[0m
+[0;32mI (12132) example: Increased brightness to 5900[0m
+[0;32mI (12132) example: Decreased brightness to 5800[0m
+[0;32mI (12332) example: Increased brightness to 6000[0m
+[0;32mI (12332) example: Decreased brightness to 5900[0m
+[0;32mI (12532) example: Increased brightness to 6100[0m
+[0;32mI (12532) example: Decreased brightness to 6000[0m
+[0;32mI (12732) example: Increased brightness to 6200[0m
+[0;32mI (12732) example: Decreased brightness to 6100[0m
+[0;32mI (12932) example: Increased brightness to 6300[0m
+[0;32mI (12932) example: Decreased brightness to 6200[0m
+[0;32mI (13132) example: Increased brightness to 6400[0m
+[0;32mI (13132) example: Decreased brightness to 6300[0m
+[0;32mI (13332) example: Increased brightness to 6500[0m
+[0;32mI (13332) example: Decreased brightness to 6400[0m
+[0;32mI (13532) example: Increased brightness to 6600[0m
+[0;32mI (13532) example: Decreased brightness to 6500[0m
+[0;32mI (13732) example: Increased brightness to 6700[0m
+[0;32mI (13732) example: Decreased brightness to 6600[0m
+[0;32mI (13932) example: Increased brightness to 6800[0m
+[0;32mI (13932) example: Decreased brightness to 6700[0m
+[0;32mI (14132) example: Increased brightness to 6900[0m
+[0;32mI (14132) example: Decreased brightness to 6800[0m
+[0;32mI (14332) example: Increased brightness to 7000[0m
+[0;32mI (14332) example: Decreased brightness to 6900[0m
+[0;32mI (14532) example: Increased brightness to 7100[0m
+[0;32mI (14532) example: Decreased brightness to 7000[0m
+[0;32mI (14732) example: Increased brightness to 7200[0m
+[0;32mI (14732) example: Decreased brightness to 7100[0m
+[0;32mI (14932) example: Increased brightness to 7300[0m
+[0;32mI (14932) example: Decreased brightness to 7200[0m
+[0;32mI (15132) example: Increased brightness to 7400[0m
+[0;32mI (15132) example: Decreased brightness to 7300[0m
+[0;32mI (15332) example: Increased brightness to 7500[0m
+[0;32mI (15332) example: Decreased brightness to 7400[0m
+[0;32mI (15532) example: Increased brightness to 7600[0m
+[0;32mI (15532) example: Decreased brightness to 7500[0m
+[0;32mI (15732) example: Increased brightness to 7700[0m
+[0;32mI (15732) example: Decreased brightness to 7600[0m
+[0;32mI (15932) example: Increased brightness to 7800[0m
+[0;32mI (15932) example: Decreased brightness to 7700[0m
+[0;32mI (16132) example: Increased brightness to 7900[0m
+[0;32mI (16132) example: Decreased brightness to 7800[0m
+[0;32mI (16332) example: Increased brightness to 8000[0m
+[0;32mI (16332) example: Decreased brightness to 7900[0m
+[0;32mI (16532) example: Increased brightness to 8100[0m
+[0;32mI (16532) example: Decreased brightness to 8000[0m
+[0;32mI (16732) example: Increased brightness to 8191[0m
+[0;32mI (16732) example: Decreased brightness to 8091[0m
+[0;32mI (16932) example: Increased brightness to 8191[0m
+[0;32mI (16932) example: Decreased brightness to 8091[0m
+[0;32mI (17132) example: Increased brightness to 8191[0m
+[0;32mI (17132) example: Decreased brightness to 8091[0m
+[0;32mI (17332) example: Increased brightness to 8191[0m
+[0;32mI (17332) example: Decreased brightness to 8091[0m
+[0;32mI (17532) example: Increased brightness to 8191[0m
+[0;32mI (17532) example: Decreased brightness to 8091[0m
+[0;32mI (17732) example: Increased brightness to 8191[0m
+[0;32mI (17732) example: Decreased brightness to 8091[0m
+[0;32mI (17932) example: Increased brightness to 8191[0m
+[0;32mI (17932) example: Decreased brightness to 8091[0m
+[0;32mI (18132) example: Increased brightness to 8191[0m
+[0;32mI (18132) example: Decreased brightness to 8091[0m
+[0;32mI (18332) example: Increased brightness to 8191[0m
+[0;32mI (18332) example: Decreased brightness to 8091[0m
+[0;32mI (18532) example: Increased brightness to 8191[0m
+[0;32mI (18532) example: Decreased brightness to 8091[0m
+[0;32mI (18732) example: Increased brightness to 8191[0m
+[0;32mI (18732) example: Decreased brightness to 8091[0m
+[0;32mI (18932) example: Increased brightness to 8191[0m
+[0;32mI (18932) example: Decreased brightness to 8091[0m
+[0;32mI (19132) example: Increased brightness to 8191[0m
+[0;32mI (19132) example: Decreased brightness to 8091[0m
+[0;32mI (19332) example: Increased brightness to 8191[0m
+[0;32mI (19332) example: Decreased brightness to 8091[0m
+[0;32mI (19532) example: Increased brightness to 8191[0m
+[0;32mI (19532) example: Decreased brightness to 8091[0m
+[0;32mI (19732) example: Increased brightness to 8191[0m
+[0;32mI (19732) example: Decreased brightness to 8091[0m
+[0;32mI (19932) example: Increased brightness to 8191[0m
+[0;32mI (19932) example: Decreased brightness to 8091[0m
+[0;32mI (20132) example: Increased brightness to 8191[0m
+[0;32mI (20132) example: Decreased brightness to 8091[0m
+[0;32mI (20332) example: Increased brightness to 8191[0m
+[0;32mI (20332) example: Decreased brightness to 8091[0m
+[0;32mI (20532) example: Increased brightness to 8191[0m
+[0;32mI (20532) example: Decreased brightness to 8091[0m
+[0;32mI (20732) example: Increased brightness to 8191[0m
+[0;32mI (20732) example: Decreased brightness to 8091[0m
+[0;32mI (20932) example: Increased brightness to 8191[0m
+[0;32mI (20932) example: Decreased brightness to 8091[0m
+[0;32mI (21132) example: Increased brightness to 8191[0m
+[0;32mI (21132) example: Decreased brightness to 8091[0m
+[0;32mI (21332) example: Increased brightness to 8191[0m
+[0;32mI (21332) example: Decreased brightness to 8091[0m
+[0;32mI (21532) example: Increased brightness to 8191[0m
+[0;32mI (21532) example: Decreased brightness to 8091[0m
+[0;32mI (21732) example: Increased brightness to 8191[0m
+[0;32mI (21732) example: Decreased brightness to 8091[0m
+[0;32mI (21932) example: Increased brightness to 8191[0m
+[0;32mI (21932) example: Decreased brightness to 8091[0m
+[0;32mI (22132) example: Increased brightness to 8191[0m
+[0;32mI (22132) example: Decreased brightness to 8091[0m
+[0;32mI (22332) example: Increased brightness to 8191[0m
+[0;32mI (22332) example: Decreased brightness to 8091[0m
+[0;32mI (22532) example: Increased brightness to 8191[0m
+[0;32mI (22532) example: Decreased brightness to 8091[0m
+[0;32mI (22732) example: Increased brightness to 8191[0m
+[0;32mI (22732) example: Decreased brightness to 8091[0m
+[0;32mI (22932) example: Increased brightness to 8191[0m
+[0;32mI (22932) example: Decreased brightness to 8091[0m
+[0;32mI (23132) example: Increased brightness to 8191[0m
+[0;32mI (23132) example: Decreased brightness to 8091[0m
+[0;32mI (23332) example: Increased brightness to 8191[0m
+[0;32mI (23332) example: Decreased brightness to 8091[0m
+[0;32mI (23532) example: Increased brightness to 8191[0m
+[0;32mI (23532) example: Decreased brightness to 8091[0m
+[0;32mI (23732) example: Increased brightness to 8191[0m
+[0;32mI (23732) example: Decreased brightness to 8091[0m
+[0;32mI (23932) example: Increased brightness to 8191[0m
+[0;32mI (23932) example: Decreased brightness to 8091[0m
+[0;32mI (24132) example: Increased brightness to 8191[0m
+[0;32mI (24132) example: Decreased brightness to 8091[0m
+[0;32mI (24332) example: Increased brightness to 8191[0m
+[0;32mI (24332) example: Decreased brightness to 8091[0m
+[0;32mI (24532) example: Increased brightness to 8191[0m
+[0;32mI (24532) example: Decreased brightness to 8091[0m
+[0;32mI (24732) example: Increased brightness to 8191[0m
+[0;32mI (24732) example: Decreased brightness to 8091[0m
+[0;32mI (24932) example: Increased brightness to 8191[0m
+[0;32mI (24932) example: Decreased brightness to 8091[0m
+[0;32mI (25132) example: Increased brightness to 8191[0m
+[0;32mI (25132) example: Decreased brightness to 8091[0m
+[0;32mI (25332) example: Increased brightness to 8191[0m
+[0;32mI (25332) example: Decreased brightness to 8091[0m
+[0;32mI (25532) example: Increased brightness to 8191[0m
+[0;32mI (25532) example: Decreased brightness to 8091[0m
+[0;32mI (25732) example: Increased brightness to 8191[0m
+[0;32mI (25732) example: Decreased brightness to 8091[0m
+[0;32mI (25932) example: Increased brightness to 8191[0m
+[0;32mI (25932) example: Decreased brightness to 8091[0m
+[0;32mI (26132) example: Increased brightness to 8191[0m
+[0;32mI (26132) example: Decreased brightness to 8091[0m
+[0;32mI (26332) example: Increased brightness to 8191[0m
+[0;32mI (26332) example: Decreased brightness to 8091[0m
+[0;32mI (26532) example: Increased brightness to 8191[0m
+[0;32mI (26532) example: Decreased brightness to 8091[0m
+[0;32mI (26732) example: Increased brightness to 8191[0m
+[0;32mI (26732) example: Decreased brightness to 8091[0m
+[0;32mI (26932) example: Increased brightness to 8191[0m
+[0;32mI (26932) example: Decreased brightness to 8091[0m
+[0;32mI (27132) example: Increased brightness to 8191[0m
+[0;32mI (27132) example: Decreased brightness to 8091[0m
+[0;32mI (27332) example: Increased brightness to 8191[0m
+[0;32mI (27332) example: Decreased brightness to 8091[0m
+[0;32mI (27532) example: Increased brightness to 8191[0m
+[0;32mI (27532) example: Decreased brightness to 8091[0m
+[0;32mI (27732) example: Increased brightness to 8191[0m
+[0;32mI (27732) example: Decreased brightness to 8091[0m
+[0;32mI (27932) example: Increased brightness to 8191[0m
+[0;32mI (27932) example: Decreased brightness to 8091[0m
+[0;32mI (28132) example: Increased brightness to 8191[0m
+[0;32mI (28132) example: Decreased brightness to 8091[0m
+[0;32mI (28332) example: Increased brightness to 8191[0m
+[0;32mI (28332) example: Decreased brightness to 8091[0m
+[0;32mI (28532) example: Increased brightness to 8191[0m
+[0;32mI (28532) example: Decreased brightness to 8091[0m
+[0;32mI (28732) example: Increased brightness to 8191[0m
+[0;32mI (28732) example: Decreased brightness to 8091[0m
+[0;32mI (28932) example: Increased brightness to 8191[0m
+[0;32mI (28932) example: Decreased brightness to 8091[0m
+[0;32mI (29132) example: Increased brightness to 8191[0m
+[0;32mI (29132) example: Decreased brightness to 8091[0m
+[0;32mI (29332) example: Increased brightness to 8191[0m
+[0;32mI (29332) example: Decreased brightness to 8091[0m
+[0;32mI (29532) example: Increased brightness to 8191[0m
+[0;32mI (29532) example: Decreased brightness to 8091[0m
+[0;32mI (29732) example: Increased brightness to 8191[0m
+[0;32mI (29732) example: Decreased brightness to 8091[0m
+[0;32mI (29932) example: Increased brightness to 8191[0m
+[0;32mI (29932) example: Decreased brightness to 8091[0m
+[0;32mI (30132) example: Increased brightness to 8191[0m
+[0;32mI (30132) example: Decreased brightness to 8091[0m
+[0;32mI (30332) example: Increased brightness to 8191[0m
+[0;32mI (30332) example: Decreased brightness to 8091[0m
+[0;32mI (30532) example: Increased brightness to 8191[0m
+[0;32mI (30532) example: Decreased brightness to 8091[0m
+[0;32mI (30732) example: Increased brightness to 8191[0m
+[0;32mI (30732) example: Decreased brightness to 8091[0m
+[0;32mI (30932) example: Increased brightness to 8191[0m
+[0;32mI (30932) example: Decreased brightness to 8091[0m
+[0;32mI (31132) example: Increased brightness to 8191[0m
+[0;32mI (31132) example: Decreased brightness to 8091[0m
+[0;32mI (31332) example: Increased brightness to 8191[0m
+[0;32mI (31332) example: Decreased brightness to 8091[0m
+[0;32mI (31532) example: Increased brightness to 8191[0m
+[0;32mI (31532) example: Decreased brightness to 8091[0m
+[0;32mI (31732) example: Increased brightness to 8191[0m
+[0;32mI (31732) example: Decreased brightness to 8091[0m
+[0;32mI (31932) example: Increased brightness to 8191[0m
+[0;32mI (31932) example: Decreased brightness to 8091[0m
+[0;32mI (32132) example: Increased brightness to 8191[0m
+[0;32mI (32132) example: Decreased brightness to 8091[0m
+[0;32mI (32332) example: Increased brightness to 8191[0m
+[0;32mI (32332) example: Decreased brightness to 8091[0m
+[0;32mI (32532) example: Increased brightness to 8191[0m
+[0;32mI (32532) example: Decreased brightness to 8091[0m
+[0;32mI (32732) example: Increased brightness to 8191[0m
+[0;32mI (32732) example: Decreased brightness to 8091[0m
+[0;32mI (32932) example: Increased brightness to 8191[0m
+[0;32mI (32932) example: Decreased brightness to 8091[0m
+[0;32mI (33132) example: Increased brightness to 8191[0m
+[0;32mI (33132) example: Decreased brightness to 8091[0m
+[0;32mI (33332) example: Increased brightness to 8191[0m
+[0;32mI (33332) example: Decreased brightness to 8091[0m
+[0;32mI (33532) example: Increased brightness to 8191[0m
+[0;32mI (33532) example: Decreased brightness to 8091[0m
+[0;32mI (33732) example: Increased brightness to 8191[0m
+[0;32mI (33732) example: Decreased brightness to 8091[0m
+[0;32mI (33932) example: Increased brightness to 8191[0m
+[0;32mI (33932) example: Decreased brightness to 8091[0m
+[0;32mI (34132) example: Increased brightness to 8191[0m
+[0;32mI (34132) example: Decreased brightness to 8091[0m
+[0;32mI (34332) example: Increased brightness to 8191[0m
+[0;32mI (34332) example: Decreased brightness to 8091[0m
+[0;32mI (34532) example: Increased brightness to 8191[0m
+[0;32mI (34532) example: Decreased brightness to 8091[0m
+[0;32mI (34732) example: Increased brightness to 8191[0m
+[0;32mI (34732) example: Decreased brightness to 8091[0m
+[0;32mI (34932) example: Increased brightness to 8191[0m
+[0;32mI (34932) example: Decreased brightness to 8091[0m
+[0;32mI (932) example: Increased brightness to 300[0m
+[0;32mI (932) example: Decreased brightness to 200[0m
+[0;32mI (1132) example: Increased brightness to 400[0m
+[0;32mI (1132) example: Decreased brightness to 300[0m
+[0;32mI (1332) example: Increased brightness to 500[0m
+[0;32mI (1332) example: Decreased brightness to 400[0m
+[0;32mI (1532) example: Increased brightness to 600[0m
+[0;32mI (1532) example: Decreased brightness to 500[0m
+[0;32mI (1732) example: Increased brightness to 700[0m
+[0;32mI (1732) example: Decreased brightness to 600[0m
+[0;32mI (1932) example: Increased brightness to 800[0m
+[0;32mI (1932) example: Decreased brightness to 700[0m
+[0;32mI (2132) example: Increased brightness to 900[0m
+[0;32mI (2132) example: Decreased brightness to 800[0m
+[0;32mI (2332) example: Increased brightness to 1000[0m
+[0;32mI (2332) example: Decreased brightness to 900[0m
+[0;32mI (2532) example: Increased brightness to 1100[0m
+[0;32mI (2532) example: Decreased brightness to 1000[0m
+[0;32mI (2732) example: Increased brightness to 1200[0m
+[0;32mI (2732) example: Decreased brightness to 1100[0m
+[0;32mI (2932) example: Increased brightness to 1300[0m
+[0;32mI (2932) example: Decreased brightness to 1200[0m
+[0;32mI (3132) example: Increased brightness to 1400[0m
+[0;32mI (3132) example: Decreased brightness to 1300[0m
+[0;32mI (3332) example: Increased brightness to 1500[0m
+[0;32mI (3332) example: Decreased brightness to 1400[0m
+[0;32mI (3532) example: Increased brightness to 1600[0m
+[0;32mI (3532) example: Decreased brightness to 1500[0m
+[0;32mI (3732) example: Increased brightness to 1700[0m
+[0;32mI (3732) example: Decreased brightness to 1600[0m
+[0;32mI (3932) example: Increased brightness to 1800[0m
+[0;32mI (3932) example: Decreased brightness to 1700[0m
+[0;32mI (4132) example: Increased brightness to 1900[0m
+[0;32mI (4132) example: Decreased brightness to 1800[0m
+[0;32mI (4332) example: Increased brightness to 2000[0m
+[0;32mI (4332) example: Decreased brightness to 1900[0m
+[0;32mI (4532) example: Increased brightness to 2100[0m
+[0;32mI (4532) example: Decreased brightness to 2000[0m
+[0;32mI (4732) example: Increased brightness to 2200[0m
+[0;32mI (4732) example: Decreased brightness to 2100[0m
+[0;32mI (4932) example: Increased brightness to 2300[0m
+[0;32mI (4932) example: Decreased brightness to 2200[0m
+[0;32mI (5132) example: Increased brightness to 2400[0m
+[0;32mI (5132) example: Decreased brightness to 2300[0m
+[0;32mI (5332) example: Increased brightness to 2500[0m
+[0;32mI (5332) example: Decreased brightness to 2400[0m
+[0;32mI (5532) example: Increased brightness to 2600[0m
+[0;32mI (5532) example: Decreased brightness to 2500[0m
+[0;32mI (5732) example: Increased brightness to 2700[0m
+[0;32mI (5732) example: Decreased brightness to 2600[0m
+[0;32mI (5932) example: Increased brightness to 2800[0m
+[0;32mI (5932) example: Decreased brightness to 2700[0m
+[0;32mI (6132) example: Increased brightness to 2900[0m
+[0;32mI (6132) example: Decreased brightness to 2800[0m
+[0;32mI (6332) example: Increased brightness to 3000[0m
+[0;32mI (6332) example: Decreased brightness to 2900[0m
+[0;32mI (6532) example: Increased brightness to 3100[0m
+[0;32mI (6532) example: Decreased brightness to 3000[0m
+[0;32mI (6732) example: Increased brightness to 3200[0m
+[0;32mI (6732) example: Decreased brightness to 3100[0m
+[0;32mI (6932) example: Increased brightness to 3300[0m
+[0;32mI (6932) example: Decreased brightness to 3200[0m
+[0;32mI (7132) example: Increased brightness to 3400[0m
+[0;32mI (7132) example: Decreased brightness to 3300[0m
+[0;32mI (7332) example: Increased brightness to 3500[0m
+[0;32mI (7332) example: Decreased brightness to 3400[0m
+[0;32mI (7532) example: Increased brightness to 3600[0m
+[0;32mI (7532) example: Decreased brightness to 3500[0m
+[0;32mI (7732) example: Increased brightness to 3700[0m
+[0;32mI (7732) example: Decreased brightness to 3600[0m
+[0;32mI (7932) example: Increased brightness to 3800[0m
+[0;32mI (7932) example: Decreased brightness to 3700[0m
+[0;32mI (8132) example: Increased brightness to 3900[0m
+[0;32mI (8132) example: Decreased brightness to 3800[0m
+[0;32mI (8332) example: Increased brightness to 4000[0m
+[0;32mI (8332) example: Decreased brightness to 3900[0m
+[0;32mI (8532) example: Increased brightness to 4100[0m
+[0;32mI (8532) example: Decreased brightness to 4000[0m
+[0;32mI (8732) example: Increased brightness to 4200[0m
+[0;32mI (8732) example: Decreased brightness to 4100[0m
+[0;32mI (8932) example: Increased brightness to 4300[0m
+[0;32mI (8932) example: Decreased brightness to 4200[0m
+[0;32mI (9132) example: Increased brightness to 4400[0m
+[0;32mI (9132) example: Decreased brightness to 4300[0m
+[0;32mI (9332) example: Increased brightness to 4500[0m
+[0;32mI (9332) example: Decreased brightness to 4400[0m
+[0;32mI (9532) example: Increased brightness to 4600[0m
+[0;32mI (9532) example: Decreased brightness to 4500[0m
+[0;32mI (9732) example: Increased brightness to 4700[0m
+[0;32mI (9732) example: Decreased brightness to 4600[0m
+[0;32mI (9932) example: Increased brightness to 4800[0m
+[0;32mI (9932) example: Decreased brightness to 4700[0m
+[0;32mI (10132) example: Increased brightness to 4900[0m
+[0;32mI (10132) example: Decreased brightness to 4800[0m
+[0;32mI (10332) example: Increased brightness to 5000[0m
+[0;32mI (10332) example: Decreased brightness to 4900[0m
+[0;32mI (10532) example: Increased brightness to 5100[0m
+[0;32mI (10532) example: Decreased brightness to 5000[0m
+[0;32mI (10732) example: Increased brightness to 5200[0m
+[0;32mI (10732) example: Decreased brightness to 5100[0m
+[0;32mI (10932) example: Increased brightness to 5300[0m
+[0;32mI (10932) example: Decreased brightness to 5200[0m
+[0;32mI (11132) example: Increased brightness to 5400[0m
+[0;32mI (11132) example: Decreased brightness to 5300[0m
+[0;32mI (11332) example: Increased brightness to 5500[0m
+[0;32mI (11332) example: Decreased brightness to 5400[0m
+[0;32mI (11532) example: Increased brightness to 5600[0m
+[0;32mI (11532) example: Decreased brightness to 5500[0m
+[0;32mI (11732) example: Increased brightness to 5700[0m
+[0;32mI (11732) example: Decreased brightness to 5600[0m
+[0;32mI (11932) example: Increased brightness to 5800[0m
+[0;32mI (11932) example: Decreased brightness to 5700[0m
+[0;32mI (12132) example: Increased brightness to 5900[0m
+[0;32mI (12132) example: Decreased brightness to 5800[0m
+[0;32mI (12332) example: Increased brightness to 6000[0m
+[0;32mI (12332) example: Decreased brightness to 5900[0m
+[0;32mI (12532) example: Increased brightness to 6100[0m
+[0;32mI (12532) example: Decreased brightness to 6000[0m
+[0;32mI (12732) example: Increased brightness to 6200[0m
+[0;32mI (12732) example: Decreased brightness to 6100[0m
+[0;32mI (12932) example: Increased brightness to 6300[0m
+[0;32mI (12932) example: Decreased brightness to 6200[0m
+[0;32mI (13132) example: Increased brightness to 6400[0m
+[0;32mI (13132) example: Decreased brightness to 6300[0m
+[0;32mI (13332) example: Increased brightness to 6500[0m
+[0;32mI (13332) example: Decreased brightness to 6400[0m
+[0;32mI (13532) example: Increased brightness to 6600[0m
+[0;32mI (13532) example: Decreased brightness to 6500[0m
+[0;32mI (13732) example: Increased brightness to 6700[0m
+[0;32mI (13732) example: Decreased brightness to 6600[0m
+[0;32mI (13932) example: Increased brightness to 6800[0m
+[0;32mI (13932) example: Decreased brightness to 6700[0m
+[0;32mI (14132) example: Increased brightness to 6900[0m
+[0;32mI (14132) example: Decreased brightness to 6800[0m
+[0;32mI (14332) example: Increased brightness to 7000[0m
+[0;32mI (14332) example: Decreased brightness to 6900[0m
+[0;32mI (14532) example: Increased brightness to 7100[0m
+[0;32mI (14532) example: Decreased brightness to 7000[0m
+[0;32mI (14732) example: Increased brightness to 7200[0m
+[0;32mI (14732) example: Decreased brightness to 7100[0m
+[0;32mI (14932) example: Increased brightness to 7300[0m
+[0;32mI (14932) example: Decreased brightness to 7200[0m
+[0;32mI (15132) example: Increased brightness to 7400[0m
+[0;32mI (15132) example: Decreased brightness to 7300[0m
+[0;32mI (15332) example: Increased brightness to 7500[0m
+[0;32mI (15332) example: Decreased brightness to 7400[0m
+[0;32mI (15532) example: Increased brightness to 7600[0m
+[0;32mI (15532) example: Decreased brightness to 7500[0m
+[0;32mI (15732) example: Increased brightness to 7700[0m
+[0;32mI (15732) example: Decreased brightness to 7600[0m
+[0;32mI (15932) example: Increased brightness to 7800[0m
+[0;32mI (15932) example: Decreased brightness to 7700[0m
+[0;32mI (16132) example: Increased brightness to 7900[0m
+[0;32mI (16132) example: Decreased brightness to 7800[0m
+[0;32mI (16332) example: Increased brightness to 8000[0m
+[0;32mI (16332) example: Decreased brightness to 7900[0m
+[0;32mI (16532) example: Increased brightness to 8100[0m
+[0;32mI (16532) example: Decreased brightness to 8000[0m
+[0;32mI (16732) example: Increased brightness to 8191[0m
+[0;32mI (16732) example: Decreased brightness to 8091[0m
+[0;32mI (16932) example: Increased brightness to 8191[0m
+[0;32mI (16932) example: Decreased brightness to 8091[0m
+[0;32mI (17132) example: Increased brightness to 8191[0m
+[0;32mI (17132) example: Decreased brightness to 8091[0m
+[0;32mI (17332) example: Increased brightness to 8191[0m
+[0;32mI (17332) example: Decreased brightness to 8091[0m
+[0;32mI (17532) example: Increased brightness to 8191[0m
+[0;32mI (17532) example: Decreased brightness to 8091[0m
+[0;32mI (17732) example: Increased brightness to 8191[0m
+[0;32mI (17732) example: Decreased brightness to 8091[0m
+[0;32mI (17932) example: Increased brightness to 8191[0m
+[0;32mI (17932) example: Decreased brightness to 8091[0m
+[0;32mI (18132) example: Increased brightness to 8191[0m
+[0;32mI (18132) example: Decreased brightness to 8091[0m
+[0;32mI (18332) example: Increased brightness to 8191[0m
+[0;32mI (18332) example: Decreased brightness to 8091[0m
+[0;32mI (18532) example: Increased brightness to 8191[0m
+[0;32mI (18532) example: Decreased brightness to 8091[0m
+[0;32mI (18732) example: Increased brightness to 8191[0m
+[0;32mI (18732) example: Decreased brightness to 8091[0m
+[0;32mI (18932) example: Increased brightness to 8191[0m
+[0;32mI (18932) example: Decreased brightness to 8091[0m
+[0;32mI (19132) example: Increased brightness to 8191[0m
+[0;32mI (19132) example: Decreased brightness to 8091[0m
+[0;32mI (19332) example: Increased brightness to 8191[0m
+[0;32mI (19332) example: Decreased brightness to 8091[0m
+[0;32mI (19532) example: Increased brightness to 8191[0m
+[0;32mI (19532) example: Decreased brightness to 8091[0m
+[0;32mI (19732) example: Increased brightness to 8191[0m
+[0;32mI (19732) example: Decreased brightness to 8091[0m
+[0;32mI (19932) example: Increased brightness to 8191[0m
+[0;32mI (19932) example: Decreased brightness to 8091[0m
+[0;32mI (20132) example: Increased brightness to 8191[0m
+[0;32mI (20132) example: Decreased brightness to 8091[0m
+[0;32mI (20332) example: Increased brightness to 8191[0m
+[0;32mI (20332) example: Decreased brightness to 8091[0m
+[0;32mI (20532) example: Increased brightness to 8191[0m
+[0;32mI (20532) example: Decreased brightness to 8091[0m
+[0;32mI (20732) example: Increased brightness to 8191[0m
+[0;32mI (20732) example: Decreased brightness to 8091[0m
+[0;32mI (20932) example: Increased brightness to 8191[0m
+[0;32mI (20932) example: Decreased brightness to 8091[0m
+[0;32mI (21132) example: Increased brightness to 8191[0m
+[0;32mI (21132) example: Decreased brightness to 8091[0m
+[0;32mI (21332) example: Increased brightness to 8191[0m
+[0;32mI (21332) example: Decreased brightness to 8091[0m
+[0;32mI (21532) example: Increased brightness to 8191[0m
+[0;32mI (21532) example: Decreased brightness to 8091[0m
+[0;32mI (21732) example: Increased brightness to 8191[0m
+[0;32mI (21732) example: Decreased brightness to 8091[0m
+[0;32mI (21932) example: Increased brightness to 8191[0m
+[0;32mI (21932) example: Decreased brightness to 8091[0m
+[0;32mI (22132) example: Increased brightness to 8191[0m
+[0;32mI (22132) example: Decreased brightness to 8091[0m
+[0;32mI (22332) example: Increased brightness to 8191[0m
+[0;32mI (22332) example: Decreased brightness to 8091[0m
+[0;32mI (22532) example: Increased brightness to 8191[0m
+[0;32mI (22532) example: Decreased brightness to 8091[0m
+[0;32mI (22732) example: Increased brightness to 8191[0m
+[0;32mI (22732) example: Decreased brightness to 8091[0m
+[0;32mI (22932) example: Increased brightness to 8191[0m
+[0;32mI (22932) example: Decreased brightness to 8091[0m
+[0;32mI (23132) example: Increased brightness to 8191[0m
+[0;32mI (23132) example: Decreased brightness to 8091[0m
+[0;32mI (23332) example: Increased brightness to 8191[0m
+[0;32mI (23332) example: Decreased brightness to 8091[0m
+[0;32mI (23532) example: Increased brightness to 8191[0m
+[0;32mI (23532) example: Decreased brightness to 8091[0m
+[0;32mI (23732) example: Increased brightness to 8191[0m
+[0;32mI (23732) example: Decreased brightness to 8091[0m
+[0;32mI (23932) example: Increased brightness to 8191[0m
+[0;32mI (23932) example: Decreased brightness to 8091[0m
+[0;32mI (24132) example: Increased brightness to 8191[0m
+[0;32mI (24132) example: Decreased brightness to 8091[0m
+[0;32mI (24332) example: Increased brightness to 8191[0m
+[0;32mI (24332) example: Decreased brightness to 8091[0m
+[0;32mI (24532) example: Increased brightness to 8191[0m
+[0;32mI (24532) example: Decreased brightness to 8091[0m
+[0;32mI (24732) example: Increased brightness to 8191[0m
+[0;32mI (24732) example: Decreased brightness to 8091[0m
+[0;32mI (24932) example: Increased brightness to 8191[0m
+[0;32mI (24932) example: Decreased brightness to 8091[0m
+[0;32mI (25132) example: Increased brightness to 8191[0m
+[0;32mI (25132) example: Decreased brightness to 8091[0m
+[0;32mI (25332) example: Increased brightness to 8191[0m
+[0;32mI (25332) example: Decreased brightness to 8091[0m
+[0;32mI (25532) example: Increased brightness to 8191[0m
+[0;32mI (25532) example: Decreased brightness to 8091[0m
+[0;32mI (25732) example: Increased brightness to 8191[0m
+[0;32mI (25732) example: Decreased brightness to 8091[0m
+[0;32mI (25932) example: Increased brightness to 8191[0m
+[0;32mI (25932) example: Decreased brightness to 8091[0m
+[0;32mI (26132) example: Increased brightness to 8191[0m
+[0;32mI (26132) example: Decreased brightness to 8091[0m
+[0;32mI (26332) example: Increased brightness to 8191[0m
+[0;32mI (26332) example: Decreased brightness to 8091[0m
+[0;32mI (26532) example: Increased brightness to 8191[0m
+[0;32mI (26532) example: Decreased brightness to 8091[0m
+[0;32mI (26732) example: Increased brightness to 8191[0m
+[0;32mI (26732) example: Decreased brightness to 8091[0m
+[0;32mI (26932) example: Increased brightness to 8191[0m
+[0;32mI (26932) example: Decreased brightness to 8091[0m
+[0;32mI (27132) example: Increased brightness to 8191[0m
+[0;32mI (27132) example: Decreased brightness to 8091[0m
+[0;32mI (27332) example: Increased brightness to 8191[0m
+[0;32mI (27332) example: Decreased brightness to 8091[0m
+[0;32mI (27532) example: Increased brightness to 8191[0m
+[0;32mI (27532) example: Decreased brightness to 8091[0m
+[0;32mI (27732) example: Increased brightness to 8191[0m
+[0;32mI (27732) example: Decreased brightness to 8091[0m
+[0;32mI (27932) example: Increased brightness to 8191[0m
+[0;32mI (27932) example: Decreased brightness to 8091[0m
+[0;32mI (28132) example: Increased brightness to 8191[0m
+[0;32mI (28132) example: Decreased brightness to 8091[0m
+[0;32mI (28332) example: Increased brightness to 8191[0m
+[0;32mI (28332) example: Decreased brightness to 8091[0m
+[0;32mI (28532) example: Increased brightness to 8191[0m
+[0;32mI (28532) example: Decreased brightness to 8091[0m
+[0;32mI (28732) example: Increased brightness to 8191[0m
+[0;32mI (28732) example: Decreased brightness to 8091[0m
+[0;32mI (28932) example: Increased brightness to 8191[0m
+[0;32mI (28932) example: Decreased brightness to 8091[0m
+[0;32mI (29132) example: Increased brightness to 8191[0m
+[0;32mI (29132) example: Decreased brightness to 8091[0m
+[0;32mI (29332) example: Increased brightness to 8191[0m
+[0;32mI (29332) example: Decreased brightness to 8091[0m
+[0;32mI (29532) example: Increased brightness to 8191[0m
+[0;32mI (29532) example: Decreased brightness to 8091[0m
+[0;32mI (29732) example: Increased brightness to 8191[0m
+[0;32mI (29732) example: Decreased brightness to 8091[0m
+[0;32mI (29932) example: Increased brightness to 8191[0m
+[0;32mI (29932) example: Decreased brightness to 8091[0m
+[0;32mI (30132) example: Increased brightness to 8191[0m
+[0;32mI (30132) example: Decreased brightness to 8091[0m
+[0;32mI (30332) example: Increased brightness to 8191[0m
+[0;32mI (30332) example: Decreased brightness to 8091[0m
+[0;32mI (30532) example: Increased brightness to 8191[0m
+[0;32mI (30532) example: Decreased brightness to 8091[0m
+[0;32mI (30732) example: Increased brightness to 8191[0m
+[0;32mI (30732) example: Decreased brightness to 8091[0m
+[0;32mI (1322) example: Increased brightness to 400[0m
+[0;32mI (1322) example: Decreased brightness to 300[0m
+[0;32mI (1622) example: Increased brightness to 500[0m
+[0;32mI (1622) example: Decreased brightness to 400[0m
+[0;32mI (1922) example: Increased brightness to 600[0m
+[0;32mI (1922) example: Decreased brightness to 500[0m
+[0;32mI (2222) example: Increased brightness to 700[0m
+[0;32mI (2222) example: Decreased brightness to 600[0m
+[0;32mI (2522) example: Increased brightness to 800[0m
+[0;32mI (2522) example: Decreased brightness to 700[0m
+[0;32mI (2822) example: Increased brightness to 900[0m
+[0;32mI (2822) example: Decreased brightness to 800[0m
+[0;32mI (3122) example: Increased brightness to 1000[0m
+[0;32mI (3122) example: Decreased brightness to 900[0m
+[0;32mI (3422) example: Increased brightness to 1100[0m
+[0;32mI (3422) example: Decreased brightness to 1000[0m
+[0;32mI (3722) example: Increased brightness to 1200[0m
+[0;32mI (3722) example: Decreased brightness to 1100[0m
+[0;32mI (4022) example: Increased brightness to 1300[0m
+[0;32mI (4022) example: Decreased brightness to 1200[0m
+[0;32mI (4322) example: Increased brightness to 1400[0m
+[0;32mI (4322) example: Decreased brightness to 1300[0m
+[0;32mI (4622) example: Increased brightness to 1500[0m
+[0;32mI (4622) example: Decreased brightness to 1400[0m
+[0;32mI (4922) example: Increased brightness to 1600[0m
+[0;32mI (4922) example: Decreased brightness to 1500[0m
+[0;32mI (5222) example: Increased brightness to 1700[0m
+[0;32mI (5222) example: Decreased brightness to 1600[0m
+[0;32mI (5522) example: Increased brightness to 1800[0m
+[0;32mI (5522) example: Decreased brightness to 1700[0m
+[0;32mI (5822) example: Increased brightness to 1900[0m
+[0;32mI (5822) example: Decreased brightness to 1800[0m
+[0;32mI (6122) example: Increased brightness to 2000[0m
+[0;32mI (6122) example: Decreased brightness to 1900[0m
+[0;32mI (6422) example: Increased brightness to 2100[0m
+[0;32mI (6422) example: Decreased brightness to 2000[0m
+[0;32mI (6722) example: Increased brightness to 2200[0m
+[0;32mI (6722) example: Decreased brightness to 2100[0m
+[0;32mI (7022) example: Increased brightness to 2300[0m
+[0;32mI (7022) example: Decreased brightness to 2200[0m
+[0;32mI (7322) example: Increased brightness to 2400[0m
+[0;32mI (7322) example: Decreased brightness to 2300[0m
+[0;32mI (7622) example: Increased brightness to 2500[0m
+[0;32mI (7622) example: Decreased brightness to 2400[0m
+[0;32mI (7922) example: Increased brightness to 2600[0m
+[0;32mI (7922) example: Decreased brightness to 2500[0m
+[0;32mI (8222) example: Increased brightness to 2700[0m
+[0;32mI (8222) example: Decreased brightness to 2600[0m
+[0;32mI (8522) example: Increased brightness to 2800[0m
+[0;32mI (8522) example: Decreased brightness to 2700[0m
+[0;32mI (8822) example: Increased brightness to 2900[0m
+[0;32mI (8822) example: Decreased brightness to 2800[0m
+[0;32mI (9122) example: Increased brightness to 3000[0m
+[0;32mI (9122) example: Decreased brightness to 2900[0m
+[0;32mI (9422) example: Increased brightness to 3100[0m
+[0;32mI (9422) example: Decreased brightness to 3000[0m
+[0;32mI (9722) example: Increased brightness to 3200[0m
+[0;32mI (9722) example: Decreased brightness to 3100[0m
+[0;32mI (10022) example: Increased brightness to 3300[0m
+[0;32mI (10022) example: Decreased brightness to 3200[0m
+[0;32mI (10322) example: Increased brightness to 3400[0m
+[0;32mI (10322) example: Decreased brightness to 3300[0m
+[0;32mI (10622) example: Increased brightness to 3500[0m
+[0;32mI (10622) example: Decreased brightness to 3400[0m
+[0;32mI (10922) example: Increased brightness to 3600[0m
+[0;32mI (10922) example: Decreased brightness to 3500[0m
+[0;32mI (11222) example: Increased brightness to 3700[0m
+[0;32mI (11222) example: Decreased brightness to 3600[0m
+[0;32mI (11522) example: Increased brightness to 3800[0m
+[0;32mI (11522) example: Decreased brightness to 3700[0m
+[0;32mI (11822) example: Increased brightness to 3900[0m
+[0;32mI (11822) example: Decreased brightness to 3800[0m
+[0;32mI (12122) example: Increased brightness to 4000[0m
+[0;32mI (12122) example: Decreased brightness to 3900[0m
+[0;32mI (12422) example: Increased brightness to 4100[0m
+[0;32mI (12422) example: Decreased brightness to 4000[0m
+[0;32mI (12722) example: Increased brightness to 4200[0m
+[0;32mI (12722) example: Decreased brightness to 4100[0m
+[0;32mI (13022) example: Increased brightness to 4300[0m
+[0;32mI (13022) example: Decreased brightness to 4200[0m
+[0;32mI (13322) example: Increased brightness to 4400[0m
+[0;32mI (13322) example: Decreased brightness to 4300[0m
+[0;32mI (13622) example: Increased brightness to 4500[0m
+[0;32mI (13622) example: Decreased brightness to 4400[0m
+[0;32mI (13922) example: Increased brightness to 4600[0m
+[0;32mI (13922) example: Decreased brightness to 4500[0m
+[0;32mI (14222) example: Increased brightness to 4700[0m
+[0;32mI (14222) example: Decreased brightness to 4600[0m
+[0;32mI (14522) example: Increased brightness to 4800[0m
+[0;32mI (14522) example: Decreased brightness to 4700[0m
+[0;32mI (14822) example: Increased brightness to 4900[0m
+[0;32mI (14822) example: Decreased brightness to 4800[0m
+[0;32mI (15122) example: Increased brightness to 5000[0m
+[0;32mI (15122) example: Decreased brightness to 4900[0m
+[0;32mI (15422) example: Increased brightness to 5100[0m
+[0;32mI (15422) example: Decreased brightness to 5000[0m
+[0;32mI (15722) example: Increased brightness to 5200[0m
+[0;32mI (15722) example: Decreased brightness to 5100[0m
+[0;32mI (16022) example: Increased brightness to 5300[0m
+[0;32mI (16022) example: Decreased brightness to 5200[0m
+[0;32mI (16322) example: Increased brightness to 5400[0m
+[0;32mI (16322) example: Decreased brightness to 5300[0m
+[0;32mI (16622) example: Increased brightness to 5500[0m
+[0;32mI (16622) example: Decreased brightness to 5400[0m
+[0;32mI (16922) example: Increased brightness to 5600[0m
+[0;32mI (16922) example: Decreased brightness to 5500[0m
+[0;32mI (17222) example: Increased brightness to 5700[0m
+[0;32mI (17222) example: Decreased brightness to 5600[0m
+[0;32mI (17522) example: Increased brightness to 5800[0m
+[0;32mI (17522) example: Decreased brightness to 5700[0m
+[0;32mI (17822) example: Increased brightness to 5900[0m
+[0;32mI (17822) example: Decreased brightness to 5800[0m
+[0;32mI (18122) example: Increased brightness to 6000[0m
+[0;32mI (18122) example: Decreased brightness to 5900[0m
+[0;32mI (18422) example: Increased brightness to 6100[0m
+[0;32mI (18422) example: Decreased brightness to 6000[0m
+[0;32mI (18722) example: Increased brightness to 6200[0m
+[0;32mI (18722) example: Decreased brightness to 6100[0m
+[0;32mI (19022) example: Increased brightness to 6300[0m
+[0;32mI (19022) example: Decreased brightness to 6200[0m
+[0;32mI (19322) example: Increased brightness to 6400[0m
+[0;32mI (19322) example: Decreased brightness to 6300[0m
+[0;32mI (19622) example: Increased brightness to 6500[0m
+[0;32mI (19622) example: Decreased brightness to 6400[0m
+[0;32mI (19922) example: Increased brightness to 6600[0m
+[0;32mI (19922) example: Decreased brightness to 6500[0m
+[0;32mI (20222) example: Increased brightness to 6700[0m
+[0;32mI (20222) example: Decreased brightness to 6600[0m
+[0;32mI (20522) example: Increased brightness to 6800[0m
+[0;32mI (20522) example: Decreased brightness to 6700[0m
+[0;32mI (20822) example: Increased brightness to 6900[0m
+[0;32mI (20822) example: Decreased brightness to 6800[0m
+[0;32mI (21122) example: Increased brightness to 7000[0m
+[0;32mI (21122) example: Decreased brightness to 6900[0m
+[0;32mI (21422) example: Increased brightness to 7100[0m
+[0;32mI (21422) example: Decreased brightness to 7000[0m
+[0;32mI (21722) example: Increased brightness to 7200[0m
+[0;32mI (21722) example: Decreased brightness to 7100[0m
+[0;32mI (22022) example: Increased brightness to 7300[0m
+[0;32mI (22022) example: Decreased brightness to 7200[0m
+[0;32mI (22322) example: Increased brightness to 7400[0m
+[0;32mI (22322) example: Decreased brightness to 7300[0m
+[0;32mI (22622) example: Increased brightness to 7500[0m
+[0;32mI (22622) example: Decreased brightness to 7400[0m
+[0;32mI (22922) example: Increased brightness to 7600[0m
+[0;32mI (22922) example: Decreased brightness to 7500[0m
+[0;32mI (23222) example: Increased brightness to 7700[0m
+[0;32mI (23222) example: Decreased brightness to 7600[0m
+[0;32mI (23522) example: Increased brightness to 7800[0m
+[0;32mI (23522) example: Decreased brightness to 7700[0m
+[0;32mI (23822) example: Increased brightness to 7900[0m
+[0;32mI (23822) example: Decreased brightness to 7800[0m
+[0;32mI (24122) example: Increased brightness to 8000[0m
+[0;32mI (24122) example: Decreased brightness to 7900[0m
+[0;32mI (24422) example: Increased brightness to 8100[0m
+[0;32mI (24422) example: Decreased brightness to 8000[0m
+[0;32mI (24722) example: Increased brightness to 8191[0m
+[0;32mI (24722) example: Decreased brightness to 8091[0m
+[0;32mI (25022) example: Increased brightness to 8191[0m
+[0;32mI (25022) example: Decreased brightness to 8091[0m
+[0;32mI (25322) example: Increased brightness to 8191[0m
+[0;32mI (25322) example: Decreased brightness to 8091[0m
+[0;32mI (25622) example: Increased brightness to 8191[0m
+[0;32mI (25622) example: Decreased brightness to 8091[0m
+[0;32mI (25922) example: Increased brightness to 8191[0m
+[0;32mI (25922) example: Decreased brightness to 8091[0m
+[0;32mI (26222) example: Increased brightness to 8191[0m
+[0;32mI (26222) example: Decreased brightness to 8091[0m
+[0;32mI (26522) example: Increased brightness to 8191[0m
+[0;32mI (26522) example: Decreased brightness to 8091[0m
+[0;32mI (26822) example: Increased brightness to 8191[0m
+[0;32mI (26822) example: Decreased brightness to 8091[0m
+[0;32mI (27122) example: Increased brightness to 8191[0m
+[0;32mI (27122) example: Decreased brightness to 8091[0m
+[0;32mI (27422) example: Increased brightness to 8191[0m
+[0;32mI (27422) example: Decreased brightness to 8091[0m
+[0;32mI (27722) example: Increased brightness to 8191[0m
+[0;32mI (27722) example: Decreased brightness to 8091[0m
+[0;32mI (28022) example: Increased brightness to 8191[0m
+[0;32mI (28022) example: Decreased brightness to 8091[0m
+[0;32mI (28322) example: Increased brightness to 8191[0m
+[0;32mI (28322) example: Decreased brightness to 8091[0m
+[0;32mI (28622) example: Increased brightness to 8191[0m
+[0;32mI (28622) example: Decreased brightness to 8091[0m
+[0;32mI (28922) example: Increased brightness to 8191[0m
+[0;32mI (28922) example: Decreased brightness to 8091[0m
+[0;32mI (29222) example: Increased brightness to 8191[0m
+[0;32mI (29222) example: Decreased brightness to 8091[0m
+[0;32mI (29522) example: Increased brightness to 8191[0m
+[0;32mI (29522) example: Decreased brightness to 8091[0m
+[0;32mI (29822) example: Increased brightness to 8191[0m
+[0;32mI (29822) example: Decreased brightness to 8091[0m
+[0;32mI (30122) example: Increased brightness to 8191[0m
+[0;32mI (30122) example: Decreased brightness to 8091[0m
+[0;32mI (30422) example: Increased brightness to 8191[0m
+[0;32mI (30422) example: Decreased brightness to 8091[0m
+[0;32mI (30722) example: Increased brightness to 8191[0m
+[0;32mI (30722) example: Decreased brightness to 8091[0m
+[0;32mI (31022) example: Increased brightness to 8191[0m
+[0;32mI (31022) example: Decreased brightness to 8091[0m
+[0;32mI (31322) example: Increased brightness to 8191[0m
+[0;32mI (31322) example: Decreased brightness to 8091[0m
+[0;32mI (31622) example: Increased brightness to 8191[0m
+[0;32mI (31622) example: Decreased brightness to 8091[0m
+[0;32mI (31922) example: Increased brightness to 8191[0m
+[0;32mI (31922) example: Decreased brightness to 8091[0m
+[0;32mI (32222) example: Increased brightness to 8191[0m
+[0;32mI (32222) example: Decreased brightness to 8091[0m
+[0;32mI (32522) example: Increased brightness to 8191[0m
+[0;32mI (32522) example: Decreased brightness to 8091[0m
+[0;32mI (32822) example: Increased brightness to 8191[0m
+[0;32mI (32822) example: Decreased brightness to 8091[0m
+[0;32mI (33122) example: Increased brightness to 8191[0m
+[0;32mI (33122) example: Decreased brightness to 8091[0m
+[0;32mI (33422) example: Increased brightness to 8191[0m
+[0;32mI (33422) example: Decreased brightness to 8091[0m
+[0;32mI (33722) example: Increased brightness to 8191[0m
+[0;32mI (33722) example: Decreased brightness to 8091[0m
+[0;32mI (34022) example: Increased brightness to 8191[0m
+[0;32mI (34022) example: Decreased brightness to 8091[0m
+[0;32mI (34322) example: Increased brightness to 8191[0m
+[0;32mI (34322) example: Decreased brightness to 8091[0m
+[0;32mI (34622) example: Increased brightness to 8191[0m
+[0;32mI (34622) example: Decreased brightness to 8091[0m
+[0;32mI (34922) example: Increased brightness to 8191[0m
+[0;32mI (34922) example: Decreased brightness to 8091[0m
+[0;32mI (35222) example: Increased brightness to 8191[0m
+[0;32mI (35222) example: Decreased brightness to 8091[0m
+[0;32mI (35522) example: Increased brightness to 8191[0m
+[0;32mI (35522) example: Decreased brightness to 8091[0m
+[0;32mI (35822) example: Increased brightness to 8191[0m
+[0;32mI (35822) example: Decreased brightness to 8091[0m
+[0;32mI (36122) example: Increased brightness to 8191[0m
+[0;32mI (36122) example: Decreased brightness to 8091[0m
+[0;32mI (36422) example: Increased brightness to 8191[0m
+[0;32mI (36422) example: Decreased brightness to 8091[0m
+[0;32mI (36722) example: Increased brightness to 8191[0m
+[0;32mI (36722) example: Decreased brightness to 8091[0m
+[0;32mI (37022) example: Increased brightness to 8191[0m
+[0;32mI (37022) example: Decreased brightness to 8091[0m
+[0;32mI (37322) example: Increased brightness to 8191[0m
+[0;32mI (37322) example: Decreased brightness to 8091[0m
+[0;32mI (37622) example: Increased brightness to 8191[0m
+[0;32mI (37622) example: Decreased brightness to 8091[0m
+[0;32mI (37922) example: Increased brightness to 8191[0m
+[0;32mI (37922) example: Decreased brightness to 8091[0m
+[0;32mI (38222) example: Increased brightness to 8191[0m
+[0;32mI (38222) example: Decreased brightness to 8091[0m
+[0;32mI (38522) example: Increased brightness to 8191[0m
+[0;32mI (38522) example: Decreased brightness to 8091[0m
+[0;32mI (38822) example: Increased brightness to 8191[0m
+[0;32mI (38822) example: Decreased brightness to 8091[0m
+[0;32mI (39122) example: Increased brightness to 8191[0m
+[0;32mI (39122) example: Decreased brightness to 8091[0m
+[0;32mI (39422) example: Increased brightness to 8191[0m
+[0;32mI (39422) example: Decreased brightness to 8091[0m
+[0;32mI (39722) example: Increased brightness to 8191[0m
+[0;32mI (39722) example: Decreased brightness to 8091[0m
+[0;32mI (40022) example: Increased brightness to 8191[0m
+[0;32mI (40022) example: Decreased brightness to 8091[0m
+[0;32mI (40322) example: Increased brightness to 8191[0m
+[0;32mI (40322) example: Decreased brightness to 8091[0m
+[0;32mI (40622) example: Increased brightness to 8191[0m
+[0;32mI (40622) example: Decreased brightness to 8091[0m
+[0;32mI (40922) example: Increased brightness to 8191[0m
+[0;32mI (40922) example: Decreased brightness to 8091[0m
+[0;32mI (41222) example: Increased brightness to 8191[0m
+[0;32mI (41222) example: Decreased brightness to 8091[0m
+[0;32mI (41522) example: Increased brightness to 8191[0m
+[0;32mI (41522) example: Decreased brightness to 8091[0m
+[0;32mI (41822) example: Increased brightness to 8191[0m
+[0;32mI (41822) example: Decreased brightness to 8091[0m
+[0;32mI (42122) example: Increased brightness to 8191[0m
+[0;32mI (42122) example: Decreased brightness to 8091[0m
+[0;32mI (42422) example: Increased brightness to 8191[0m
+[0;32mI (42422) example: Decreased brightness to 8091[0m
+[0;32mI (42722) example: Increased brightness to 8191[0m
+[0;32mI (42722) example: Decreased brightness to 8091[0m
+[0;32mI (43022) example: Increased brightness to 8191[0m
+[0;32mI (43022) example: Decreased brightness to 8091[0m
+[0;32mI (43322) example: Increased brightness to 8191[0m
+[0;32mI (43322) example: Decreased brightness to 8091[0m
+[0;32mI (43622) example: Increased brightness to 8191[0m
+[0;32mI (43622) example: Decreased brightness to 8091[0m
+[0;32mI (43922) example: Increased brightness to 8191[0m
+[0;32mI (43922) example: Decreased brightness to 8091[0m
+[0;32mI (44222) example: Increased brightness to 8191[0m
+[0;32mI (44222) example: Decreased brightness to 8091[0m
+[0;32mI (44522) example: Increased brightness to 8191[0m
+[0;32mI (44522) example: Decreased brightness to 8091[0m
+[0;32mI (44822) example: Increased brightness to 8191[0m
+[0;32mI (44822) example: Decreased brightness to 8091[0m
+[0;32mI (45122) example: Increased brightness to 8191[0m
+[0;32mI (45122) example: Decreased brightness to 8091[0m
+[0;32mI (45422) example: Increased brightness to 8191[0m
+[0;32mI (45422) example: Decreased brightness to 8091[0m
+[0;32mI (45722) example: Increased brightness to 8191[0m
+[0;32mI (45722) example: Decreased brightness to 8091[0m
+[0;32mI (46022) example: Increased brightness to 8191[0m
+[0;32mI (46022) example: Decreased brightness to 8091[0m
+[0;32mI (46322) example: Increased brightness to 8191[0m
+[0;32mI (46322) example: Decreased brightness to 8091[0m
+[0;32mI (46622) example: Increased brightness to 8191[0m
+[0;32mI (46622) example: Decreased brightness to 8091[0m
+[0;32mI (46922) example: Increased brightness to 8191[0m
+[0;32mI (46922) example: Decreased brightness to 8091[0m
+[0;32mI (47222) example: Increased brightness to 8191[0m
+[0;32mI (47222) example: Decreased brightness to 8091[0m
+[0;32mI (47522) example: Increased brightness to 8191[0m
+[0;32mI (47522) example: Decreased brightness to 8091[0m
+[0;32mI (47822) example: Increased brightness to 8191[0m
+[0;32mI (47822) example: Decreased brightness to 8091[0m
+[0;32mI (48122) example: Increased brightness to 8191[0m
+[0;32mI (48122) example: Decreased brightness to 8091[0m
+[0;32mI (48422) example: Increased brightness to 8191[0m
+[0;32mI (48422) example: Decreased brightness to 8091[0m
+[0;32mI (48722) example: Increased brightness to 8191[0m
+[0;32mI (48722) example: Decreased brightness to 8091[0m
+[0;32mI (49022) example: Increased brightness to 8191[0m
+[0;32mI (49022) example: Decreased brightness to 8091[0m
+[0;32mI (49322) example: Increased brightness to 8191[0m
+[0;32mI (49322) example: Decreased brightness to 8091[0m
+[0;32mI (49622) example: Increased brightness to 8191[0m
+[0;32mI (49622) example: Decreased brightness to 8091[0m
+[0;32mI (49922) example: Increased brightness to 8191[0m
+[0;32mI (49922) example: Decreased brightness to 8091[0m
+[0;32mI (50222) example: Increased brightness to 8191[0m
+[0;32mI (50222) example: Decreased brightness to 8091[0m
+[0;32mI (50522) example: Increased brightness to 8191[0m
+[0;32mI (50522) example: Decreased brightness to 8091[0m
+[0;32mI (50822) example: Increased brightness to 8191[0m
+[0;32mI (50822) example: Decreased brightness to 8091[0m
+[0;32mI (51122) example: Increased brightness to 8191[0m
+[0;32mI (51122) example: Decreased brightness to 8091[0m
+[0;32mI (51422) example: Increased brightness to 8191[0m
+[0;32mI (51422) example: Decreased brightness to 8091[0m
+[0;32mI (51722) example: Increased brightness to 8191[0m
+[0;32mI (51722) example: Decreased brightness to 8091[0m
+[0;32mI (52022) example: Increased brightness to 8191[0m
+[0;32mI (52022) example: Decreased brightness to 8091[0m
+[0;32mI (52322) example: Increased brightness to 8191[0m
+[0;32mI (52322) example: Decreased brightness to 8091[0m
+[0;32mI (52622) example: Increased brightness to 8191[0m
+[0;32mI (52622) example: Decreased brightness to 8091[0m
+[0;32mI (52922) example: Increased brightness to 8191[0m
+[0;32mI (52922) example: Decreased brightness to 8091[0m
+[0;32mI (53222) example: Increased brightness to 8191[0m
+[0;32mI (53222) example: Decreased brightness to 8091[0m
+[0;32mI (53522) example: Increased brightness to 8191[0m
+[0;32mI (53522) example: Decreased brightness to 8091[0m
+[0;32mI (53822) example: Increased brightness to 8191[0m
+[0;32mI (53822) example: Decreased brightness to 8091[0m
+[0;32mI (54122) example: Increased brightness to 8191[0m
+[0;32mI (54122) example: Decreased brightness to 8091[0m
+[0;32mI (54422) example: Increased brightness to 8191[0m
+[0;32mI (54422) example: Decreased brightness to 8091[0m
+[0;32mI (54722) example: Increased brightness to 8191[0m
+[0;32mI (54722) example: Decreased brightness to 8091[0m
+[0;32mI (55022) example: Increased brightness to 8191[0m
+[0;32mI (55022) example: Decreased brightness to 8091[0m
+[0;32mI (55322) example: Increased brightness to 8191[0m
+[0;32mI (55322) example: Decreased brightness to 8091[0m
+[0;32mI (55622) example: Increased brightness to 8191[0m
+[0;32mI (55622) example: Decreased brightness to 8091[0m
+[0;32mI (55922) example: Increased brightness to 8191[0m
+[0;32mI (55922) example: Decreased brightness to 8091[0m
+[0;32mI (56222) example: Increased brightness to 8191[0m
+[0;32mI (56222) example: Decreased brightness to 8091[0m
+[0;32mI (56522) example: Increased brightness to 8191[0m
+[0;32mI (56522) example: Decreased brightness to 8091[0m
+[0;32mI (56822) example: Increased brightness to 8191[0m
+[0;32mI (56822) example: Decreased brightness to 8091[0m
+[0;32mI (57122) example: Increased brightness to 8191[0m
+[0;32mI (57122) example: Decreased brightness to 8091[0m
+[0;32mI (57422) example: Increased brightness to 8191[0m
+[0;32mI (57422) example: Decreased brightness to 8091[0m
+[0;32mI (57722) example: Increased brightness to 8191[0m
+[0;32mI (57722) example: Decreased brightness to 8091[0m
+[0;32mI (58022) example: Increased brightness to 8191[0m
+[0;32mI (58022) example: Decreased brightness to 8091[0m
+[0;32mI (58322) example: Increased brightness to 8191[0m
+[0;32mI (58322) example: Decreased brightness to 8091[0m
+[0;32mI (58622) example: Increased brightness to 8191[0m
+[0;32mI (58622) example: Decreased brightness to 8091[0m
+[0;32mI (58922) example: Increased brightness to 8191[0m
+[0;32mI (58922) example: Decreased brightness to 8091[0m
+[0;32mI (59222) example: Increased brightness to 8191[0m
+[0;32mI (59222) example: Decreased brightness to 8091[0m
+[0;32mI (59522) example: Increased brightness to 8191[0m
+[0;32mI (59522) example: Decreased brightness to 8091[0m
+[0;32mI (59822) example: Increased brightness to 8191[0m
+[0;32mI (59822) example: Decreased brightness to 8091[0m
+[0;32mI (60122) example: Increased brightness to 8191[0m
+[0;32mI (60122) example: Decreased brightness to 8091[0m
+[0;32mI (60422) example: Increased brightness to 8191[0m
+[0;32mI (60422) example: Decreased brightness to 8091[0m
+[0;32mI (60722) example: Increased brightness to 8191[0m
+[0;32mI (60722) example: Decreased brightness to 8091[0m
+[0;32mI (61022) example: Increased brightness to 8191[0m
+[0;32mI (61022) example: Decreased brightness to 8091[0m
+[0;32mI (61322) example: Increased brightness to 8191[0m
+[0;32mI (61322) example: Decreased brightness to 8091[0m
+[0;32mI (61622) example: Increased brightness to 8191[0m
+[0;32mI (61622) example: Decreased brightness to 8091[0m
+[0;32mI (61922) example: Increased brightness to 8191[0m
+[0;32mI (61922) example: Decreased brightness to 8091[0m
+[0;32mI (62222) example: Increased brightness to 8191[0m
+[0;32mI (62222) example: Decreased brightness to 8091[0m
+[0;32mI (62522) example: Increased brightness to 8191[0m
+[0;32mI (62522) example: Decreased brightness to 8091[0m
+[0;32mI (62822) example: Increased brightness to 8191[0m
+[0;32mI (62822) example: Decreased brightness to 8091[0m
+[0;32mI (63122) example: Increased brightness to 8191[0m
+[0;32mI (63122) example: Decreased brightness to 8091[0m
+[0;32mI (63422) example: Increased brightness to 8191[0m
+[0;32mI (63422) example: Decreased brightness to 8091[0m
+[0;32mI (63722) example: Increased brightness to 8191[0m
+[0;32mI (63722) example: Decreased brightness to 8091[0m
+[0;32mI (64022) example: Increased brightness to 8191[0m
+[0;32mI (64022) example: Decreased brightness to 8091[0m
+[0;32mI (64322) example: Increased brightness to 8191[0m
+[0;32mI (64322) example: Decreased brightness to 8091[0m
+[0;32mI (64622) example: Increased brightness to 8191[0m
+[0;32mI (64622) example: Decreased brightness to 8091[0m
+[0;32mI (64922) example: Increased brightness to 8191[0m
+[0;32mI (64922) example: Decreased brightness to 8091[0m
+[0;32mI (65222) example: Increased brightness to 8191[0m
+[0;32mI (65222) example: Decreased brightness to 8091[0m
+[0;32mI (65522) example: Increased brightness to 8191[0m
+[0;32mI (65522) example: Decreased brightness to 8091[0m
+[0;32mI (65822) example: Increased brightness to 8191[0m
+[0;32mI (65822) example: Decreased brightness to 8091[0m
+[0;32mI (66122) example: Increased brightness to 8191[0m
+[0;32mI (66122) example: Decreased brightness to 8091[0m
+[0;32mI (66422) example: Increased brightness to 8191[0m
+[0;32mI (66422) example: Decreased brightness to 8091[0m
+[0;32mI (66722) example: Increased brightness to 8191[0m
+[0;32mI (66722) example: Decreased brightness to 8091[0m
+[0;32mI (67022) example: Increased brightness to 8191[0m
+[0;32mI (67022) example: Decreased brightness to 8091[0m
+[0;32mI (67322) example: Increased brightness to 8191[0m
+[0;32mI (67322) example: Decreased brightness to 8091[0m
+[0;32mI (67622) example: Increased brightness to 8191[0m
+[0;32mI (67622) example: Decreased brightness to 8091[0m
+[0;32mI (67922) example: Increased brightness to 8191[0m
+[0;32mI (67922) example: Decreased brightness to 8091[0m
+[0;32mI (68222) example: Increased brightness to 8191[0m
+[0;32mI (68222) example: Decreased brightness to 8091[0m
+[0;32mI (68522) example: Increased brightness to 8191[0m
+[0;32mI (68522) example: Decreased brightness to 8091[0m
+[0;32mI (68822) example: Increased brightness to 8191[0m
+[0;32mI (68822) example: Decreased brightness to 8091[0m
+[0;32mI (69122) example: Increased brightness to 8191[0m
+[0;32mI (69122) example: Decreased brightness to 8091[0m
+[0;32mI (69422) example: Increased brightness to 8191[0m
+[0;32mI (69422) example: Decreased brightness to 8091[0m
+[0;32mI (69722) example: Increased brightness to 8191[0m
+[0;32mI (69722) example: Decreased brightness to 8091[0m
+[0;32mI (70022) example: Increased brightness to 8191[0m
+[0;32mI (70022) example: Decreased brightness to 8091[0m
+[0;32mI (70322) example: Increased brightness to 8191[0m
+[0;32mI (70322) example: Decreased brightness to 8091[0m
+[0;32mI (70622) example: Increased brightness to 8191[0m
+[0;32mI (70622) example: Decreased brightness to 8091[0m
+[0;32mI (70922) example: Increased brightness to 8191[0m
+[0;32mI (70922) example: Decreased brightness to 8091[0m
+[0;32mI (71222) example: Increased brightness to 8191[0m
+[0;32mI (71222) example: Decreased brightness to 8091[0m
+[0;32mI (71522) example: Increased brightness to 8191[0m
+[0;32mI (71522) example: Decreased brightness to 8091[0m
+[0;32mI (71822) example: Increased brightness to 8191[0m
+[0;32mI (71822) example: Decreased brightness to 8091[0m
+[0;32mI (72122) example: Increased brightness to 8191[0m
+[0;32mI (72122) example: Decreased brightness to 8091[0m
+[0;32mI (72422) example: Increased brightness to 8191[0m
+[0;32mI (72422) example: Decreased brightness to 8091[0m
+[0;32mI (72722) example: Increased brightness to 8191[0m
+[0;32mI (72722) example: Decreased brightness to 8091[0m
+[0;32mI (73022) example: Increased brightness to 8191[0m
+[0;32mI (73022) example: Decreased brightness to 8091[0m
+[0;32mI (73322) example: Increased brightness to 8191[0m
+[0;32mI (73322) example: Decreased brightness to 8091[0m
+[0;32mI (73622) example: Increased brightness to 8191[0m
+[0;32mI (73622) example: Decreased brightness to 8091[0m
+[0;32mI (73922) example: Increased brightness to 8191[0m
+[0;32mI (73922) example: Decreased brightness to 8091[0m
+[0;32mI (74222) example: Increased brightness to 8191[0m
+[0;32mI (74222) example: Decreased brightness to 8091[0m
+[0;32mI (74522) example: Increased brightness to 8191[0m
+[0;32mI (74522) example: Decreased brightness to 8091[0m
+[0;32mI (74822) example: Increased brightness to 8191[0m
+[0;32mI (74822) example: Decreased brightness to 8091[0m
+[0;32mI (75122) example: Increased brightness to 8191[0m
+[0;32mI (75122) example: Decreased brightness to 8091[0m
+[0;32mI (75422) example: Increased brightness to 8191[0m
+[0;32mI (75422) example: Decreased brightness to 8091[0m
+[0;32mI (75722) example: Increased brightness to 8191[0m
+[0;32mI (75722) example: Decreased brightness to 8091[0m
+[0;32mI (76022) example: Increased brightness to 8191[0m
+[0;32mI (76022) example: Decreased brightness to 8091[0m
+[0;32mI (76322) example: Increased brightness to 8191[0m
+[0;32mI (76322) example: Decreased brightness to 8091[0m
+[0;32mI (76622) example: Increased brightness to 8191[0m
+[0;32mI (76622) example: Decreased brightness to 8091[0m
+[0;32mI (76922) example: Increased brightness to 8191[0m
+[0;32mI (76922) example: Decreased brightness to 8091[0m
+[0;32mI (77222) example: Increased brightness to 8191[0m
+[0;32mI (77222) example: Decreased brightness to 8091[0m
+[0;32mI (77522) example: Increased brightness to 8191[0m
+[0;32mI (77522) example: Decreased brightness to 8091[0m
+[0;32mI (77822) example: Increased brightness to 8191[0m
+[0;32mI (77822) example: Decreased brightness to 8091[0m
+[0;32mI (78122) example: Increased brightness to 8191[0m
+[0;32mI (78122) example: Decreased brightness to 8091[0m
+[0;32mI (78422) example: Increased brightness to 8191[0m
+[0;32mI (78422) example: Decreased brightness to 8091[0m
+[0;32mI (78722) example: Increased brightness to 8191[0m
+[0;32mI (78722) example: Decreased brightness to 8091[0m
+[0;32mI (79022) example: Increased brightness to 8191[0m
+[0;32mI (79022) example: Decreased brightness to 8091[0m
+[0;32mI (79322) example: Increased brightness to 8191[0m
+[0;32mI (79322) example: Decreased brightness to 8091[0m
+[0;32mI (79622) example: Increased brightness to 8191[0m
+[0;32mI (79622) example: Decreased brightness to 8091[0m
+[0;32mI (79922) example: Increased brightness to 8191[0m
+[0;32mI (79922) example: Decreased brightness to 8091[0m
+[0;32mI (80222) example: Increased brightness to 8191[0m
+[0;32mI (80222) example: Decreased brightness to 8091[0m
+[0;32mI (80522) example: Increased brightness to 8191[0m
+[0;32mI (80522) example: Decreased brightness to 8091[0m
+[0;32mI (80822) example: Increased brightness to 8191[0m
+[0;32mI (80822) example: Decreased brightness to 8091[0m
+[0;32mI (81122) example: Increased brightness to 8191[0m
+[0;32mI (81122) example: Decreased brightness to 8091[0m
+[0;32mI (81422) example: Increased brightness to 8191[0m
+[0;32mI (81422) example: Decreased brightness to 8091[0m
+[0;32mI (81722) example: Increased brightness to 8191[0m
+[0;32mI (81722) example: Decreased brightness to 8091[0m
+[0;32mI (82022) example: Increased brightness to 8191[0m
+[0;32mI (82022) example: Decreased brightness to 8091[0m
+[0;32mI (82322) example: Increased brightness to 8191[0m
+[0;32mI (82322) example: Decreased brightness to 8091[0m
+[0;32mI (82622) example: Increased brightness to 8191[0m
+[0;32mI (82622) example: Decreased brightness to 8091[0m
+[0;32mI (82922) example: Increased brightness to 8191[0m
+[0;32mI (82922) example: Decreased brightness to 8091[0m
+[0;32mI (83222) example: Increased brightness to 8191[0m
+[0;32mI (83222) example: Decreased brightness to 8091[0m
+[0;32mI (83522) example: Increased brightness to 8191[0m
+[0;32mI (83522) example: Decreased brightness to 8091[0m
+[0;32mI (83822) example: Increased brightness to 8191[0m
+[0;32mI (83822) example: Decreased brightness to 8091[0m
+[0;32mI (84122) example: Increased brightness to 8191[0m
+[0;32mI (84122) example: Decreased brightness to 8091[0m
+[0;32mI (84422) example: Increased brightness to 8191[0m
+[0;32mI (84422) example: Decreased brightness to 8091[0m
+[0;32mI (84722) example: Increased brightness to 8191[0m
+[0;32mI (84722) example: Decreased brightness to 8091[0m
+[0;32mI (85022) example: Increased brightness to 8191[0m
+[0;32mI (85022) example: Decreased brightness to 8091[0m
+[0;32mI (85322) example: Increased brightness to 8191[0m
+[0;32mI (85322) example: Decreased brightness to 8091[0m
+[0;32mI (85622) example: Increased brightness to 8191[0m
+[0;32mI (85622) example: Decreased brightness to 8091[0m
+[0;32mI (85922) example: Increased brightness to 8191[0m
+[0;32mI (85922) example: Decreased brightness to 8091[0m
+[0;32mI (86222) example: Increased brightness to 8191[0m
+[0;32mI (86222) example: Decreased brightness to 8091[0m
+[0;32mI (86522) example: Increased brightness to 8191[0m
+[0;32mI (86522) example: Decreased brightness to 8091[0m
+[0;32mI (86822) example: Increased brightness to 8191[0m
+[0;32mI (86822) example: Decreased brightness to 8091[0m
+[0;32mI (87122) example: Increased brightness to 8191[0m
+[0;32mI (87122) example: Decreased brightness to 8091[0m
+[0;32mI (87422) example: Increased brightness to 8191[0m
+[0;32mI (87422) example: Decreased brightness to 8091[0m
+[0;32mI (87722) example: Increased brightness to 8191[0m
+[0;32mI (87722) example: Decreased brightness to 8091[0m
+[0;32mI (88022) example: Increased brightness to 8191[0m
+[0;32mI (88022) example: Decreased brightness to 8091[0m
+[0;32mI (88322) example: Increased brightness to 8191[0m
+[0;32mI (88322) example: Decreased brightness to 8091[0m
+[0;32mI (88622) example: Increased brightness to 8191[0m
+[0;32mI (88622) example: Decreased brightness to 8091[0m
+[0;32mI (88922) example: Increased brightness to 8191[0m
+[0;32mI (88922) example: Decreased brightness to 8091[0m
+[0;32mI (89222) example: Increased brightness to 8191[0m
+[0;32mI (89222) example: Decreased brightness to 8091[0m
+[0;32mI (89522) example: Increased brightness to 8191[0m
+[0;32mI (89522) example: Decreased brightness to 8091[0m
+[0;32mI (89822) example: Increased brightness to 8191[0m
+[0;32mI (89822) example: Decreased brightness to 8091[0m
+[0;32mI (90122) example: Increased brightness to 8191[0m
+[0;32mI (90122) example: Decreased brightness to 8091[0m
+[0;32mI (90422) example: Increased brightness to 8191[0m
+[0;32mI (90422) example: Decreased brightness to 8091[0m
+[0;32mI (90722) example: Increased brightness to 8191[0m
+[0;32mI (90722) example: Decreased brightness to 8091[0m
+[0;32mI (91022) example: Increased brightness to 8191[0m
+[0;32mI (91022) example: Decreased brightness to 8091[0m
+[0;32mI (91322) example: Increased brightness to 8191[0m
+[0;32mI (91322) example: Decreased brightness to 8091[0m
+[0;32mI (91622) example: Increased brightness to 8191[0m
+[0;32mI (91622) example: Decreased brightness to 8091[0m
+[0;32mI (91922) example: Increased brightness to 8191[0m
+[0;32mI (91922) example: Decreased brightness to 8091[0m
+[0;32mI (92222) example: Increased brightness to 8191[0m
+[0;32mI (92222) example: Decreased brightness to 8091[0m
+[0;32mI (92522) example: Increased brightness to 8191[0m
+[0;32mI (92522) example: Decreased brightness to 8091[0m
+[0;32mI (92822) example: Increased brightness to 8191[0m
+[0;32mI (92822) example: Decreased brightness to 8091[0m
+[0;32mI (93122) example: Increased brightness to 8191[0m
+[0;32mI (93122) example: Decreased brightness to 8091[0m
+[0;32mI (93422) example: Increased brightness to 8191[0m
+[0;32mI (93422) example: Decreased brightness to 8091[0m
+[0;32mI (93722) example: Increased brightness to 8191[0m
+[0;32mI (93722) example: Decreased brightness to 8091[0m
+[0;32mI (94022) example: Increased brightness to 8191[0m
+[0;32mI (94022) example: Decreased brightness to 8091[0m
+[0;32mI (94322) example: Increased brightness to 8191[0m
+[0;32mI (94322) example: Decreased brightness to 8091[0m
+[0;32mI (94622) example: Increased brightness to 8191[0m
+[0;32mI (94622) example: Decreased brightness to 8091[0m
+[0;32mI (94922) example: Increased brightness to 8191[0m
+[0;32mI (94922) example: Decreased brightness to 8091[0m
+[0;32mI (95222) example: Increased brightness to 8191[0m
+[0;32mI (95222) example: Decreased brightness to 8091[0m
+[0;32mI (95522) example: Increased brightness to 8191[0m
+[0;32mI (95522) example: Decreased brightness to 8091[0m
+[0;32mI (95822) example: Increased brightness to 8191[0m
+[0;32mI (95822) example: Decreased brightness to 8091[0m
+[0;32mI (96122) example: Increased brightness to 8191[0m
+[0;32mI (96122) example: Decreased brightness to 8091[0m
+[0;32mI (96422) example: Increased brightness to 8191[0m
+[0;32mI (96422) example: Decreased brightness to 8091[0m
+[0;32mI (96722) example: Increased brightness to 8191[0m
+[0;32mI (96722) example: Decreased brightness to 8091[0m
+[0;32mI (97022) example: Increased brightness to 8191[0m
+[0;32mI (97022) example: Decreased brightness to 8091[0m
+[0;32mI (97322) example: Increased brightness to 8191[0m
+[0;32mI (97322) example: Decreased brightness to 8091[0m
+[0;32mI (97622) example: Increased brightness to 8191[0m
+[0;32mI (97622) example: Decreased brightness to 8091[0m
+[0;32mI (97922) example: Increased brightness to 8191[0m
+[0;32mI (97922) example: Decreased brightness to 8091[0m
+[0;32mI (98222) example: Increased brightness to 8191[0m
+[0;32mI (98222) example: Decreased brightness to 8091[0m
+[0;32mI (98522) example: Increased brightness to 8191[0m
+[0;32mI (98522) example: Decreased brightness to 8091[0m
+[0;32mI (98822) example: Increased brightness to 8191[0m
+[0;32mI (98822) example: Decreased brightness to 8091[0m
+[0;32mI (99122) example: Increased brightness to 8191[0m
+[0;32mI (99122) example: Decreased brightness to 8091[0m
+[0;32mI (99422) example: Increased brightness to 8191[0m
+[0;32mI (99422) example: Decreased brightness to 8091[0m
+[0;32mI (99722) example: Increased brightness to 8191[0m
+[0;32mI (99722) example: Decreased brightness to 8091[0m
+[0;32mI (100022) example: Increased brightness to 8191[0m
+[0;32mI (100022) example: Decreased brightness to 8091[0m
+[0;32mI (100322) example: Increased brightness to 8191[0m
+[0;32mI (100322) example: Decreased brightness to 8091[0m
+[0;32mI (100622) example: Increased brightness to 8191[0m
+[0;32mI (100622) example: Decreased brightness to 8091[0m
+[0;32mI (100922) example: Increased brightness to 8191[0m
+[0;32mI (100922) example: Decreased brightness to 8091[0m
+[0;32mI (101222) example: Increased brightness to 8191[0m
+[0;32mI (101222) example: Decreased brightness to 8091[0m
+[0;32mI (101522) example: Increased brightness to 8191[0m
+[0;32mI (101522) example: Decreased brightness to 8091[0m
+[0;32mI (101822) example: Increased brightness to 8191[0m
+[0;32mI (101822) example: Decreased brightness to 8091[0m
+[0;32mI (102122) example: Increased brightness to 8191[0m
+[0;32mI (102122) example: Decreased brightness to 8091[0m
+[0;32mI (102422) example: Increased brightness to 8191[0m
+[0;32mI (102422) example: Decreased brightness to 8091[0m
+[0;32mI (102722) example: Increased brightness to 8191[0m
+[0;32mI (102722) example: Decreased brightness to 8091[0m
+[0;32mI (103022) example: Increased brightness to 8191[0m
+[0;32mI (103022) example: Decreased brightness to 8091[0m
+[0;32mI (103322) example: Increased brightness to 8191[0m
+[0;32mI (103322) example: Decreased brightness to 8091[0m
+[0;32mI (103622) example: Increased brightness to 8191[0m
+[0;32mI (103622) example: Decreased brightness to 8091[0m
+[0;32mI (103922) example: Increased brightness to 8191[0m
+[0;32mI (103922) example: Decreased brightness to 8091[0m
+[0;32mI (104222) example: Increased brightness to 8191[0m
+[0;32mI (104222) example: Decreased brightness to 8091[0m
+[0;32mI (104522) example: Increased brightness to 8191[0m
+[0;32mI (104522) example: Decreased brightness to 8091[0m
+[0;32mI (104822) example: Increased brightness to 8191[0m
+[0;32mI (104822) example: Decreased brightness to 8091[0m
+[0;32mI (105122) example: Increased brightness to 8191[0m
+[0;32mI (105122) example: Decreased brightness to 8091[0m
+[0;32mI (105422) example: Increased brightness to 8191[0m
+[0;32mI (105422) example: Decreased brightness to 8091[0m
+[0;32mI (105722) example: Increased brightness to 8191[0m
+[0;32mI (105722) example: Decreased brightness to 8091[0m
+[0;32mI (106022) example: Increased brightness to 8191[0m
+[0;32mI (106022) example: Decreased brightness to 8091[0m
+[0;32mI (106322) example: Increased brightness to 8191[0m
+[0;32mI (106322) example: Decreased brightness to 8091[0m
+[0;32mI (106622) example: Increased brightness to 8191[0m
+[0;32mI (106622) example: Decreased brightness to 8091[0m
+[0;32mI (106922) example: Increased brightness to 8191[0m
+[0;32mI (106922) example: Decreased brightness to 8091[0m
+[0;32mI (107222) example: Increased brightness to 8191[0m
+[0;32mI (107222) example: Decreased brightness to 8091[0m
+[0;32mI (107522) example: Increased brightness to 8191[0m
+[0;32mI (107522) example: Decreased brightness to 8091[0m
+[0;32mI (107822) example: Increased brightness to 8191[0m
+[0;32mI (107822) example: Decreased brightness to 8091[0m
+[0;32mI (108122) example: Increased brightness to 8191[0m
+[0;32mI (108122) example: Decreased brightness to 8091[0m
+[0;32mI (108422) example: Increased brightness to 8191[0m
+[0;32mI (108422) example: Decreased brightness to 8091[0m
+[0;32mI (108722) example: Increased brightness to 8191[0m
+[0;32mI (108722) example: Decreased brightness to 8091[0m
+[0;32mI (109022) example: Increased brightness to 8191[0m
+[0;32mI (109022) example: Decreased brightness to 8091[0m
+[0;32mI (109322) example: Increased brightness to 8191[0m
+[0;32mI (109322) example: Decreased brightness to 8091[0m
+[0;32mI (109622) example: Increased brightness to 8191[0m
+[0;32mI (109622) example: Decreased brightness to 8091[0m
+[0;32mI (109922) example: Increased brightness to 8191[0m
+[0;32mI (109922) example: Decreased brightness to 8091[0m
+[0;32mI (110222) example: Increased brightness to 8191[0m
+[0;32mI (110222) example: Decreased brightness to 8091[0m
+[0;32mI (110522) example: Increased brightness to 8191[0m
+[0;32mI (110522) example: Decreased brightness to 8091[0m
+[0;32mI (110822) example: Increased brightness to 8191[0m
+[0;32mI (110822) example: Decreased brightness to 8091[0m
+[0;32mI (111122) example: Increased brightness to 8191[0m
+[0;32mI (111122) example: Decreased brightness to 8091[0m
+[0;32mI (111422) example: Increased brightness to 8191[0m
+[0;32mI (111422) example: Decreased brightness to 8091[0m
+[0;32mI (111722) example: Increased brightness to 8191[0m
+[0;32mI (111722) example: Decreased brightness to 8091[0m
+[0;32mI (112022) example: Increased brightness to 8191[0m
+[0;32mI (112022) example: Decreased brightness to 8091[0m
+[0;32mI (112322) example: Increased brightness to 8191[0m
+[0;32mI (112322) example: Decreased brightness to 8091[0m
+[0;32mI (112622) example: Increased brightness to 8191[0m
+[0;32mI (112622) example: Decreased brightness to 8091[0m
+[0;32mI (112922) example: Increased brightness to 8191[0m
+[0;32mI (112922) example: Decreased brightness to 8091[0m
+[0;32mI (113222) example: Increased brightness to 8191[0m
+[0;32mI (113222) example: Decreased brightness to 8091[0m
+[0;32mI (113522) example: Increased brightness to 8191[0m
+[0;32mI (113522) example: Decreased brightness to 8091[0m
+[0;32mI (113822) example: Increased brightness to 8191[0m
+[0;32mI (113822) example: Decreased brightness to 8091[0m
+[0;32mI (114122) example: Increased brightness to 8191[0m
+[0;32mI (114122) example: Decreased brightness to 8091[0m
+[0;32mI (114422) example: Increased brightness to 8191[0m
+[0;32mI (114422) example: Decreased brightness to 8091[0m
+[0;32mI (114722) example: Increased brightness to 8191[0m
+[0;32mI (114722) example: Decreased brightness to 8091[0m
+[0;32mI (115022) example: Increased brightness to 8191[0m
+[0;32mI (115022) example: Decreased brightness to 8091[0m
+[0;32mI (115322) example: Increased brightness to 8191[0m
+[0;32mI (115322) example: Decreased brightness to 8091[0m
+[0;32mI (115622) example: Increased brightness to 8191[0m
+[0;32mI (115622) example: Decreased brightness to 8091[0m
+[0;32mI (115922) example: Increased brightness to 8191[0m
+[0;32mI (115922) example: Decreased brightness to 8091[0m
+[0;32mI (116222) example: Increased brightness to 8191[0m
+[0;32mI (116222) example: Decreased brightness to 8091[0m
+[0;32mI (116522) example: Increased brightness to 8191[0m
+[0;32mI (116522) example: Decreased brightness to 8091[0m
+[0;32mI (116822) example: Increased brightness to 8191[0m
+[0;32mI (116822) example: Decreased brightness to 8091[0m
+[0;32mI (117122) example: Increased brightness to 8191[0m
+[0;32mI (117122) example: Decreased brightness to 8091[0m
+[0;32mI (117422) example: Increased brightness to 8191[0m
+[0;32mI (117422) example: Decreased brightness to 8091[0m
+[0;32mI (117722) example: Increased brightness to 8191[0m
+[0;32mI (117722) example: Decreased brightness to 8091[0m
+[0;32mI (118022) example: Increased brightness to 8191[0m
+[0;32mI (118022) example: Decreased brightness to 8091[0m
+[0;32mI (118322) example: Increased brightness to 8191[0m
+[0;32mI (118322) example: Decreased brightness to 8091[0m
+[0;32mI (118622) example: Increased brightness to 8191[0m
+[0;32mI (118622) example: Decreased brightness to 8091[0m
+[0;32mI (118922) example: Increased brightness to 8191[0m
+[0;32mI (118922) example: Decreased brightness to 8091[0m
+[0;32mI (119222) example: Increased brightness to 8191[0m
+[0;32mI (119222) example: Decreased brightness to 8091[0m
+[0;32mI (119522) example: Increased brightness to 8191[0m
+[0;32mI (119522) example: Decreased brightness to 8091[0m
+[0;32mI (119822) example: Increased brightness to 8191[0m
+[0;32mI (119822) example: Decreased brightness to 8091[0m
+[0;32mI (120122) example: Increased brightness to 8191[0m
+[0;32mI (120122) example: Decreased brightness to 8091[0m
+[0;32mI (120422) example: Increased brightness to 8191[0m
+[0;32mI (120422) example: Decreased brightness to 8091[0m
+[0;32mI (120722) example: Increased brightness to 8191[0m
+[0;32mI (120722) example: Decreased brightness to 8091[0m
+[0;32mI (121022) example: Increased brightness to 8191[0m
+[0;32mI (121022) example: Decreased brightness to 8091[0m
+[0;32mI (121322) example: Increased brightness to 8191[0m
+[0;32mI (121322) example: Decreased brightness to 8091[0m
+[0;32mI (121622) example: Increased brightness to 8191[0m
+[0;32mI (121622) example: Decreased brightness to 8091[0m
+[0;32mI (121922) example: Increased brightness to 8191[0m
+[0;32mI (121922) example: Decreased brightness to 8091[0m
+[0;32mI (122222) example: Increased brightness to 8191[0m
+[0;32mI (122222) example: Decreased brightness to 8091[0m
+[0;32mI (122522) example: Increased brightness to 8191[0m
+[0;32mI (122522) example: Decreased brightness to 8091[0m
+[0;32mI (122822) example: Increased brightness to 8191[0m
+[0;32mI (122822) example: Decreased brightness to 8091[0m
+[0;32mI (123122) example: Increased brightness to 8191[0m
+[0;32mI (123122) example: Decreased brightness to 8091[0m
+[0;32mI (123422) example: Increased brightness to 8191[0m
+[0;32mI (123422) example: Decreased brightness to 8091[0m
+[0;32mI (123722) example: Increased brightness to 8191[0m
+[0;32mI (123722) example: Decreased brightness to 8091[0m
+[0;32mI (124022) example: Increased brightness to 8191[0m
+[0;32mI (124022) example: Decreased brightness to 8091[0m
+[0;32mI (124322) example: Increased brightness to 8191[0m
+[0;32mI (124322) example: Decreased brightness to 8091[0m
+[0;32mI (124622) example: Increased brightness to 8191[0m
+[0;32mI (124622) example: Decreased brightness to 8091[0m
+[0;32mI (124922) example: Increased brightness to 8191[0m
+[0;32mI (124922) example: Decreased brightness to 8091[0m
+[0;32mI (125222) example: Increased brightness to 8191[0m
+[0;32mI (125222) example: Decreased brightness to 8091[0m
+[0;32mI (125522) example: Increased brightness to 8191[0m
+[0;32mI (125522) example: Decreased brightness to 8091[0m
+[0;32mI (125822) example: Increased brightness to 8191[0m
+[0;32mI (125822) example: Decreased brightness to 8091[0m
+[0;32mI (126122) example: Increased brightness to 8191[0m
+[0;32mI (126122) example: Decreased brightness to 8091[0m
+[0;32mI (126422) example: Increased brightness to 8191[0m
+[0;32mI (126422) example: Decreased brightness to 8091[0m
+[0;32mI (126722) example: Increased brightness to 8191[0m
+[0;32mI (126722) example: Decreased brightness to 8091[0m
+[0;32mI (127022) example: Increased brightness to 8191[0m
+[0;32mI (127022) example: Decreased brightness to 8091[0m
+[0;32mI (127322) example: Increased brightness to 8191[0m
+[0;32mI (127322) example: Decreased brightness to 8091[0m
+[0;32mI (127622) example: Increased brightness to 8191[0m
+[0;32mI (127622) example: Decreased brightness to 8091[0m
+[0;32mI (127922) example: Increased brightness to 8191[0m
+[0;32mI (127922) example: Decreased brightness to 8091[0m
+[0;32mI (128222) example: Increased brightness to 8191[0m
+[0;32mI (128222) example: Decreased brightness to 8091[0m
+[0;32mI (128522) example: Increased brightness to 8191[0m
+[0;32mI (128522) example: Decreased brightness to 8091[0m
+[0;32mI (128822) example: Increased brightness to 8191[0m
+[0;32mI (128822) example: Decreased brightness to 8091[0m
+[0;32mI (129122) example: Increased brightness to 8191[0m
+[0;32mI (129122) example: Decreased brightness to 8091[0m
+[0;32mI (129422) example: Increased brightness to 8191[0m
+[0;32mI (129422) example: Decreased brightness to 8091[0m
+[0;32mI (129722) example: Increased brightness to 8191[0m
+[0;32mI (129722) example: Decreased brightness to 8091[0m
+[0;32mI (130022) example: Increased brightness to 8191[0m
+[0;32mI (130022) example: Decreased brightness to 8091[0m
+[0;32mI (130322) example: Increased brightness to 8191[0m
+[0;32mI (130322) example: Decreased brightness to 8091[0m
+[0;32mI (130622) example: Increased brightness to 8191[0m
+[0;32mI (130622) example: Decreased brightness to 8091[0m
+[0;32mI (130922) example: Increased brightness to 8191[0m
+[0;32mI (130922) example: Decreased brightness to 8091[0m
+[0;32mI (131222) examp
