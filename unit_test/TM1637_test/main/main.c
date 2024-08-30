@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include "hello_world.h" // include header, location specified in CMakeLists.txt
-#include "driver/driver.h" // include driver header
+
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
